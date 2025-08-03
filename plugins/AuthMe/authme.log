@@ -1,0 +1,28 @@
+[08-03 15:17:40]: [INFO] Created column 'regdate' and set the current timestamp, 1754252260773, to all 0 rows
+[08-03 15:17:40]: [INFO] SQLite Setup finished
+[08-03 15:17:40]: [INFO] Hooked into LuckPerms!
+[08-03 15:17:41]: [WARN] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[08-03 15:17:41]: [INFO] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[08-03 15:18:46]: [INFO] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[08-03 15:18:46]: [WARN] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[08-03 15:18:46]: [INFO] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[08-03 15:18:46]: [WARN] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (El sistema no puede encontrar el archivo especificado)
+[08-03 15:18:46]: java.io.FileNotFoundException: plugins\AuthMe\GeoLite2-Country.mmdb (El sistema no puede encontrar el archivo especificado)
+	at java.base/java.io.RandomAccessFile.open0(Native Method)
+	at java.base/java.io.RandomAccessFile.open(RandomAccessFile.java:356)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:273)
+	at java.base/java.io.RandomAccessFile.<init>(RandomAccessFile.java:223)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.BufferHolder.<init>(BufferHolder.java:20)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.libs.com.maxmind.db.Reader.<init>(Reader.java:121)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.startReading(GeoIpService.java:179)
+	at AuthMe-5.6.0.jar//fr.xephi.authme.service.GeoIpService.updateDatabase(GeoIpService.java:150)
+	at org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+	at org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+	at com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+
+[08-03 15:19:39]: [FINE] lorspi registered 127.0.0.1
+[08-03 15:19:39]: [FINE] lorspi logged in 127.0.0.1
+[08-03 15:20:40]: [INFO] AuthMe 5.6.0-bCUSTOM disabled!

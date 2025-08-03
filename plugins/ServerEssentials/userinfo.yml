@@ -1,0 +1,12 @@
+f8862d2c-39bb-4246-aacc-ce55a2fca150:
+  login: 1754252360690
+  money: 0.0
+  logout: 1754252435944
+  logoutLocation:
+    ==: org.bukkit.Location
+    world: world
+    x: 242.78570112013915
+    y: 68.0
+    z: -139.90087445018747
+    pitch: 2.805646
+    yaw: -83.37607

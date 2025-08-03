@@ -1,90 +1,729 @@
-[14:45:14] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152; Oracle Corporation null) on Windows 11 10.0 (amd64)
-[14:45:14] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-22-main@bf465e0 (2025-08-03T15:29:10Z) for Minecraft 1.21.8
-[14:45:15] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
-[14:45:15] [ServerMain/INFO]: [PluginInitializerManager] Initialized 0 plugins
-[14:45:21] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
-[14:45:21] [ServerMain/INFO]: Found new data pack file/bukkit, loading it automatically
-[14:45:21] [ServerMain/INFO]: Found new data pack paper, loading it automatically
-[14:45:22] [ServerMain/INFO]: No existing world data, creating new world
-[14:45:22] [ServerMain/INFO]: Loaded 1407 recipes
-[14:45:23] [ServerMain/INFO]: Loaded 1520 advancements
-[14:45:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
-[14:45:23] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 391,0ms
-[14:45:23] [Server thread/INFO]: Starting minecraft server version 1.21.8
-[14:45:23] [Server thread/INFO]: Loading properties
-[14:45:23] [Server thread/INFO]: This server is running Paper version 1.21.8-22-main@bf465e0 (2025-08-03T15:29:10Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
-[14:45:23] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
-[14:45:23] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[14:45:23] [Server thread/INFO]: Using 4 threads for Netty based IO
-[14:45:24] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
-[14:45:24] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
-[14:45:24] [Server thread/INFO]: Default game type: SURVIVAL
-[14:45:24] [Server thread/INFO]: Generating keypair
-[14:45:24] [Server thread/INFO]: Starting Minecraft server on *:25565
-[14:45:24] [Server thread/INFO]: Using default channel type
-[14:45:24] [Server thread/INFO]: Paper: Using Java compression from Velocity.
-[14:45:24] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
-[14:45:24] [Server thread/INFO]: Preparing level "world"
-[14:45:29] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[14:45:29] [Server thread/INFO]: Preparing spawn area: 2%
-[14:45:30] [Server thread/INFO]: Preparing spawn area: 2%
-[14:45:30] [Server thread/INFO]: Preparing spawn area: 18%
-[14:45:31] [Server thread/INFO]: Preparing spawn area: 18%
-[14:45:31] [Server thread/INFO]: Preparing spawn area: 65%
-[14:45:31] [Server thread/INFO]: Time elapsed: 2045 ms
-[14:45:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[14:45:31] [Server thread/INFO]: Preparing spawn area: 2%
-[14:45:32] [Server thread/INFO]: Preparing spawn area: 51%
-[14:45:32] [Server thread/INFO]: Time elapsed: 684 ms
-[14:45:32] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[14:45:32] [Server thread/INFO]: Preparing spawn area: 2%
-[14:45:32] [Server thread/INFO]: Time elapsed: 189 ms
-[14:45:32] [Server thread/INFO]: [spark] Starting background profiler...
-[14:45:32] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
-[14:45:32] [Server thread/INFO]: Done preparing level "world" (7.984s)
-[14:45:32] [Server thread/INFO]: Running delayed init tasks
-[14:45:32] [Server thread/INFO]: Done (19.711s)! For help, type "help"
-[14:45:32] [Server thread/INFO]: *************************************************************************************
-[14:45:32] [Server thread/INFO]: This is the first time you're starting this server.
-[14:45:32] [Server thread/INFO]: It's recommended you read our 'Getting Started' documentation for guidance.
-[14:45:32] [Server thread/INFO]: View this and more helpful information here: https://docs.papermc.io/paper/next-steps
-[14:45:32] [Server thread/INFO]: *************************************************************************************
-[14:45:55] [User Authenticator #0/INFO]: UUID of player lorspi is f8862d2c-39bb-4246-aacc-ce55a2fca150
-[14:45:55] [Server thread/INFO]: lorspi joined the game
-[14:45:55] [Server thread/INFO]: lorspi[/127.0.0.1:60599] logged in with entity id 44 at ([world]226.5, 70.0, -136.5)
-[14:46:14] [Async Chat Thread - #1/INFO]: <lorspi> hola
-[14:46:45] [Server thread/INFO]: lorspi lost connection: Disconnected
-[14:46:45] [Server thread/INFO]: lorspi left the game
-[14:46:51] [Server thread/INFO]: Stopping the server
-[14:46:51] [Server thread/INFO]: Stopping server
-[14:46:52] [Server thread/INFO]: Saving players
-[14:46:52] [Server thread/INFO]: Saving worlds
-[14:46:52] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[14:46:52] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
-[14:46:52] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
-[14:46:52] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Saved 2209 block chunks, 625 entity chunks, 2 poi chunks in world 'world' in 1,20s
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
-[14:46:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,14s
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
-[14:46:53] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Saved 841 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0,12s
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
-[14:46:53] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
-[14:46:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[14:46:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[14:46:53] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[14:46:53] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
-[14:46:53] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
-[14:46:53] [Server thread/INFO]: All RegionFile I/O tasks to complete
-[14:46:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
-[14:46:53] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...
+[15:16:57] [ServerMain/INFO]: [bootstrap] Running Java 21 (Java HotSpot(TM) 64-Bit Server VM 21.0.3+7-LTS-152; Oracle Corporation null) on Windows 11 10.0 (amd64)
+[15:16:57] [ServerMain/INFO]: [bootstrap] Loading Paper 1.21.8-22-main@bf465e0 (2025-08-03T15:29:10Z) for Minecraft 1.21.8
+[15:16:58] [ServerMain/INFO]: [PluginInitializerManager] Initializing plugins...
+[15:16:59] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\AdvancedDisplays-1.6.1.jar'...
+[15:16:59] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Remapping plugin 'plugins\AuthMe-5.6.0.jar'...
+[15:16:59] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\Clearlag.jar'...
+[15:16:59] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\GravesX-4.9.7.3.jar'...
+[15:17:00] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Clearlag.jar' in 674ms.
+[15:17:00] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\GSit-2.4.3.jar'...
+[15:17:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\GravesX-4.9.7.3.jar' in 946ms.
+[15:17:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\ItemEditor.jar'...
+[15:17:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\ItemEditor.jar' in 154ms.
+[15:17:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\LootCrate-0.11.6.jar'...
+[15:17:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\AdvancedDisplays-1.6.1.jar' in 1488ms.
+[15:17:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\LPC-3.6.2.jar'...
+[15:17:00] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\GSit-2.4.3.jar' in 541ms.
+[15:17:00] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\PlaceholderAPI-2.11.6.jar'...
+[15:17:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\LPC-3.6.2.jar' in 83ms.
+[15:17:00] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\ProtectionStones-2.10.5.jar'...
+[15:17:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\LootCrate-0.11.6.jar' in 253ms.
+[15:17:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\ServerEssentials-Spigot.jar'...
+[15:17:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\ServerEssentials-Spigot.jar' in 163ms.
+[15:17:00] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\Shopkeepers-2.23.10.jar'...
+[15:17:01] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\PlaceholderAPI-2.11.6.jar' in 456ms.
+[15:17:01] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\SkBee-3.12.2.jar'...
+[15:17:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\ProtectionStones-2.10.5.jar' in 534ms.
+[15:17:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\SkQuery-4.3.2.jar'...
+[15:17:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\SkQuery-4.3.2.jar' in 184ms.
+[15:17:01] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\Skript-2.12.1.jar'...
+[15:17:01] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\SkBee-3.12.2.jar' in 669ms.
+[15:17:01] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\skript-yaml-1.7.2.jar'...
+[15:17:01] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Shopkeepers-2.23.10.jar' in 830ms.
+[15:17:01] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Remapping plugin 'plugins\TAB v5.2.5.jar'...
+[15:17:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\skript-yaml-1.7.2.jar' in 231ms.
+[15:17:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\telegramchat-1.0.21-SNAPSHOT.jar'...
+[15:17:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\telegramchat-1.0.21-SNAPSHOT.jar' in 51ms.
+[15:17:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\WorldBorder.jar'...
+[15:17:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\WorldBorder.jar' in 75ms.
+[15:17:02] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Remapping plugin 'plugins\worldedit-bukkit-7.3.16.jar'...
+[15:17:02] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\Skript-2.12.1.jar' in 1161ms.
+[15:17:02] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Remapping plugin 'plugins\worldguard-bukkit-7.0.14-dist.jar'...
+[15:17:03] [Paper Plugin Remapper Thread - 2/INFO]: [PluginRemapper] Done remapping plugin 'plugins\worldguard-bukkit-7.0.14-dist.jar' in 448ms.
+[15:17:03] [Paper Plugin Remapper Thread - 1/INFO]: [PluginRemapper] Done remapping plugin 'plugins\TAB v5.2.5.jar' in 1255ms.
+[15:17:03] [Paper Plugin Remapper Thread - 0/INFO]: [PluginRemapper] Done remapping plugin 'plugins\worldedit-bukkit-7.3.16.jar' in 1690ms.
+[15:17:04] [Paper Plugin Remapper Thread - 3/INFO]: [PluginRemapper] Done remapping plugin 'plugins\AuthMe-5.6.0.jar' in 4966ms.
+[15:17:05] [ServerMain/INFO]: [PluginInitializerManager] Initialized 25 plugins
+[15:17:05] [ServerMain/INFO]: [PluginInitializerManager] Paper plugins (1):
+ - simplewhitelist (2.0.0)
+[15:17:05] [ServerMain/INFO]: [PluginInitializerManager] Bukkit plugins (24):
+ - AdvancedDisplays (1.6.1), AuthMe (5.6.0-bCUSTOM), ClearLag (3.2.2), GSit (2.4.3), GravesX (4.9.7.3), ItemEditor (2.1.0), LPC (3.6.2), LootCrate (0.11.6), LuckPerms (5.5.10), PlaceholderAPI (2.11.6), ProtectionStones (2.10.5), ServerEssentials (2.2.4), Shopkeepers (2.23.10), SkBee (3.12.2), SkQuery (4.3.2), Skript (2.12.1), TAB (5.2.5), TelegramChat (1.0.21-SNAPSHOT), Vault (2.15.1), WorldBorder (2.1.5), WorldEdit (7.3.16+cbf4bd5), WorldGuard (7.0.14+2339-43997ec), WorldResourcepacks (1.9.0 (build 624)), skript-yaml (1.7.2)
+[15:17:11] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[15:17:13] [ServerMain/INFO]: Loaded 1407 recipes
+[15:17:13] [ServerMain/INFO]: Loaded 1520 advancements
+[15:17:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Initialising converters for DataConverter...
+[15:17:13] [ServerMain/INFO]: [ca.spottedleaf.dataconverter.minecraft.datatypes.MCTypeRegistry] Finished initialising converters for DataConverter in 568,2ms
+[15:17:13] [Server thread/INFO]: Starting minecraft server version 1.21.8
+[15:17:13] [Server thread/INFO]: Loading properties
+[15:17:13] [Server thread/INFO]: This server is running Paper version 1.21.8-22-main@bf465e0 (2025-08-03T15:29:10Z) (Implementing API version 1.21.8-R0.1-SNAPSHOT)
+[15:17:13] [Server thread/INFO]: [spark] This server bundles the spark profiler. For more information please visit https://docs.papermc.io/paper/profiling
+[15:17:13] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:17:13] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:17:14] [Server thread/INFO]: [MoonriseCommon] Paper is using 3 worker threads, 1 I/O threads
+[15:17:14] [Server thread/INFO]: [ChunkTaskScheduler] Chunk system is using population gen parallelism: true
+[15:17:14] [Server thread/INFO]: Default game type: SURVIVAL
+[15:17:14] [Server thread/INFO]: Generating keypair
+[15:17:14] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:17:14] [Server thread/INFO]: Using default channel type
+[15:17:14] [Server thread/INFO]: Paper: Using Java compression from Velocity.
+[15:17:14] [Server thread/INFO]: Paper: Using Java cipher from Velocity.
+[15:17:15] [Server thread/WARN]: [org.bukkit.craftbukkit.legacy.CraftLegacy] Initializing Legacy Material Support. Unless you have legacy plugins and/or data this is a bug!
+[15:17:25] [Server thread/WARN]: Legacy plugin TelegramChat v1.0.21-SNAPSHOT does not specify an api-version.
+[15:17:26] [Server thread/INFO]: [PlaceholderAPI] Loading server plugin PlaceholderAPI v2.11.6
+[15:17:26] [Server thread/INFO]: [LuckPerms] Loading server plugin LuckPerms v5.5.10
+[15:17:30] [Server thread/INFO]: [LuckPerms] Loading configuration...
+[15:17:30] [Server thread/INFO]: [Vault] Loading server plugin Vault v2.15.1
+[15:17:30] [Server thread/INFO]: [WorldEdit] Loading server plugin WorldEdit v7.3.16+cbf4bd5
+[15:17:31] [Server thread/INFO]: Got request to register class com.sk89q.worldedit.bukkit.BukkitServerInterface with WorldEdit [com.sk89q.worldedit.extension.platform.PlatformManager@4e6f6cdd]
+[15:17:31] [Server thread/INFO]: [WorldEdit] Default configuration file written: config.yml
+[15:17:31] [Server thread/INFO]: [WorldGuard] Loading server plugin WorldGuard v7.0.14+2339-43997ec
+[15:17:31] [Server thread/INFO]: [Skript] Loading server plugin Skript v2.12.1
+[15:17:31] [Server thread/INFO]: [AuthMe] Loading server plugin AuthMe v5.6.0-bCUSTOM
+[15:17:31] [Server thread/INFO]: [SkBee] Loading server plugin SkBee v3.12.2
+[15:17:31] [Server thread/INFO]: [WorldResourcepacks] Loading server plugin WorldResourcepacks v1.9.0 (build 624)
+[15:17:31] [Server thread/INFO]: [WorldBorder] Loading server plugin WorldBorder v2.1.5
+[15:17:31] [Server thread/INFO]: [TelegramChat] Loading server plugin TelegramChat v1.0.21-SNAPSHOT
+[15:17:31] [Server thread/INFO]: [TAB] Loading server plugin TAB v5.2.5
+[15:17:31] [Server thread/INFO]: [skript-yaml] Loading server plugin skript-yaml v1.7.2
+[15:17:31] [Server thread/INFO]: [SkQuery] Loading server plugin SkQuery v4.3.2
+[15:17:31] [Server thread/INFO]: [simplewhitelist] Loading server plugin simplewhitelist v2.0.0
+[15:17:31] [Server thread/INFO]: [Shopkeepers] Loading server plugin Shopkeepers v2.23.10
+[15:17:32] [Server thread/INFO]: [Shopkeepers] Loaded all plugin classes (641 ms).
+[15:17:32] [Server thread/INFO]: [Shopkeepers] Compatibility provider loaded: 1_21_R7_paper
+[15:17:32] [Server thread/INFO]: [Shopkeepers] Loading config.
+[15:17:32] [Server thread/INFO]: [Shopkeepers] Loading language file: language-en-default.yml
+[15:17:32] [Server thread/INFO]: [Shopkeepers] Registering WorldGuard flag 'allow-shop'.
+[15:17:32] [Server thread/INFO]: [Shopkeepers] Registering defaults.
+[15:17:32] [Server thread/INFO]: [ServerEssentials] Loading server plugin ServerEssentials v2.2.4
+[15:17:32] [Server thread/INFO]: [ProtectionStones] Loading server plugin ProtectionStones v2.10.5
+[15:17:32] [Server thread/INFO]: [LPC] Loading server plugin LPC v3.6.2
+[15:17:32] [Server thread/INFO]: [LootCrate] Loading server plugin LootCrate v0.11.6
+[15:17:32] [Server thread/INFO]: [ItemEditor] Loading server plugin ItemEditor v2.1.0
+[15:17:32] [Server thread/INFO]: [ItemEditor] Detected Minecraft version 1.21.8
+[15:17:32] [Server thread/INFO]: [GSit] Loading server plugin GSit v2.4.3
+[15:17:32] [Server thread/INFO]: [GravesX] Loading server plugin GravesX v4.9.7.3
+[15:17:32] [Server thread/INFO]: [ClearLag] Loading server plugin ClearLag v3.2.2
+[15:17:32] [Server thread/INFO]: [AD] Loading server plugin AdvancedDisplays v1.6.1
+[15:17:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:17:32] [Server thread/INFO]: [LuckPerms] Enabling LuckPerms v5.5.10
+[15:17:33] [Server thread/INFO]:         __    
+[15:17:33] [Server thread/INFO]:   |    |__)   LuckPerms v5.5.10
+[15:17:33] [Server thread/INFO]:   |___ |      Running on Bukkit - Paper
+[15:17:33] [Server thread/INFO]: 
+[15:17:33] [Server thread/INFO]: [LuckPerms] Loading storage provider... [H2]
+[15:17:34] [Server thread/INFO]: [LuckPerms] Loading internal permission managers...
+[15:17:34] [Server thread/INFO]: [LuckPerms] Performing initial data load...
+[15:17:34] [Server thread/INFO]: [LuckPerms] Successfully enabled. (took 2126ms)
+[15:17:34] [Server thread/INFO]: [Vault] Enabling Vault v2.15.1
+[15:17:34] [Server thread/INFO]: [Vault] Enabled Version 2.15.1
+[15:17:34] [Server thread/INFO]: [LuckPerms] Registered Vault permission & chat hook.
+[15:17:34] [Server thread/INFO]: [WorldEdit] Enabling WorldEdit v7.3.16+cbf4bd5
+[15:17:34] [Server thread/INFO]: Registering commands with com.sk89q.worldedit.bukkit.BukkitServerInterface
+[15:17:34] [Server thread/INFO]: WEPIF: Updated config file
+[15:17:34] [Server thread/INFO]: WEPIF: Vault detected! Using Vault for permissions
+[15:17:35] [Server thread/INFO]: Using com.sk89q.worldedit.bukkit.adapter.impl.v1_21_6.PaperweightAdapter as the Bukkit adapter
+[15:17:36] [Server thread/INFO]: [simplewhitelist] Enabling simplewhitelist v2.0.0
+[15:17:36] [Server thread/INFO]: Preparing level "world"
+[15:17:37] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:17:37] [Server thread/INFO]: Preparing spawn area: 0%
+[15:17:37] [Server thread/INFO]: Preparing spawn area: 0%
+[15:17:37] [Server thread/INFO]: Time elapsed: 910 ms
+[15:17:37] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:17:38] [Server thread/INFO]: Preparing spawn area: 0%
+[15:17:38] [Server thread/INFO]: Time elapsed: 117 ms
+[15:17:38] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:17:38] [Server thread/INFO]: Preparing spawn area: 0%
+[15:17:38] [Server thread/INFO]: Time elapsed: 62 ms
+[15:17:38] [Server thread/INFO]: [PlaceholderAPI] Enabling PlaceholderAPI v2.11.6
+[15:17:38] [Server thread/INFO]: [PlaceholderAPI] Fetching available expansion information...
+[15:17:38] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: vaultunlocked [2.13.1]
+[15:17:38] [Server thread/INFO]: [WorldGuard] Enabling WorldGuard v7.0.14+2339-43997ec
+[15:17:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: config.yml
+[15:17:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[15:17:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world) TNT ignition is PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world) Lighters are PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world) Lava fire is PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world) Fire spread is UNRESTRICTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world'
+[15:17:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[15:17:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world_nether) TNT ignition is PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world_nether) Lighters are PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world_nether) Lava fire is PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world_nether) Fire spread is UNRESTRICTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_nether'
+[15:17:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: config_world.yml
+[15:17:38] [Server thread/INFO]: [WorldGuard] Default configuration file written: blacklist.txt
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world_the_end) TNT ignition is PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Lighters are PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Lava fire is PERMITTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] (world_the_end) Fire spread is UNRESTRICTED.
+[15:17:38] [Server thread/INFO]: [WorldGuard] Loaded configuration for world 'world_the_end'
+[15:17:38] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:17:38] [Server thread/INFO]: [WorldGuard] Unloading and saving region data that is currently loaded...
+[15:17:38] [Server thread/INFO]: [WorldGuard] Loading region data for loaded worlds...
+[15:17:38] [Server thread/INFO]: [WorldGuard] Loading region data...
+[15:17:38] [Server thread/INFO]: [WorldGuard] Regions saved after UUID migration! This won't happen again unless you change the relevant configuration option in WorldGuard's config.
+[15:17:38] [Server thread/INFO]: [Skript] Enabling Skript v2.12.1
+[15:17:38] [Server thread/INFO]: [Skript] Successfully generated the config and the example scripts.
+[15:17:40] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] You're currently running the latest stable version of Skript.
+[15:17:40] [Server thread/INFO]: [Skript]  ~ created by & © Peter Güttinger aka Njol ~
+[15:17:40] [Server thread/INFO]: [AuthMe] Enabling AuthMe v5.6.0-bCUSTOM
+[15:17:40] [Server thread/INFO]: [AuthMe] Created column 'regdate' and set the current timestamp, 1754252260773, to all 0 rows
+[15:17:40] [Server thread/INFO]: [AuthMe] SQLite Setup finished
+[15:17:40] [Server thread/INFO]: [AuthMe] Hooked into LuckPerms!
+[15:17:41] [Server thread/WARN]: [AuthMe] WARNING! The protectInventory feature requires ProtocolLib! Disabling it...
+[15:17:41] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0 build n.CUSTOM successfully enabled!
+[15:17:41] [Server thread/INFO]: [SkBee] Enabling SkBee v3.12.2
+[15:17:41] [Server thread/INFO]: [SkBee] Registry Elements successfully loaded
+[15:17:41] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript] Loaded 5504 aliases in 1114ms
+[15:17:41] [Server thread/INFO]: [SkBee] Loading NBTApi...
+[15:17:41] [Server thread/INFO]: [SkBee] [NBTAPI] Found Minecraft: 1.21.8! Trying to find NMS support
+[15:17:41] [Server thread/INFO]: [SkBee] [NBTAPI] NMS support 'MC1_21_R5' loaded!
+[15:17:41] [Server thread/INFO]: [SkBee] Successfully loaded NBTApi!
+[15:17:41] [Server thread/INFO]: [SkBee] NBT Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] Text Component Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] Advancement Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] BossBar Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] Bound Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] Damage Source Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] Display Entity Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] Fastboard[Adventure] Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] Fishing Elements successfully loaded
+[15:17:41] [Server thread/INFO]: [SkBee] Game Event Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Item Component Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Particle Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Property Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] RayTrace Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Recipe Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Scoreboard Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Statistic Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Structure Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] SwitchCase Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Tick Manager Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Villager Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Virtual Furnace Elements disabled via config
+[15:17:42] [Server thread/INFO]: [SkBee] World Border Elements disabled (now in Skript)
+[15:17:42] [Server thread/INFO]: [SkBee] World Creator Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Chunk Generator Elements successfully loaded
+[15:17:42] [Server thread/INFO]: [SkBee] Loaded (461) elements:
+[15:17:42] [Server thread/INFO]: [SkBee]  - 56 events
+[15:17:42] [Server thread/INFO]: [SkBee]  - 71 effects
+[15:17:42] [Server thread/INFO]: [SkBee]  - 276 expressions
+[15:17:42] [Server thread/INFO]: [SkBee]  - 26 conditions
+[15:17:42] [Server thread/INFO]: [SkBee]  - 32 sections
+[15:17:42] [Server thread/INFO]: [SkBee]  - 11 properties
+[15:17:42] [Server thread/INFO]: [SkBee] Checking for update...
+[15:17:42] [Server thread/INFO]: [SkBee] Plugin is up to date!
+[15:17:42] [Server thread/INFO]: [SkBee] Successfully enabled v3.12.2 in 1,18 seconds
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Enabling WorldResourcepacks v1.9.0 (build 624)
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Loading config!
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Debug level: INFO
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Found locales zh_cn, en, pt-br
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loading packs:
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] examplepack - http://example.com/lobbyresourcepack.zip - abcdef012345678abcdef012345678abcdef0123
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=http://example.com/lobbyresourcepack.zip, uuid=51d028e6-c675-3df9-a344-9049add5fda6, hash=abcdef012345678abcdef012345678abcdef0123, local-path=null, format=1, version=1.8, restricted=false, permission=worldresourcepacks.pack.examplepack, type=null, variants=null}
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] globalpack - http://example.com/globalpack.zip - abcdef012345678abcdef012345678abcdef0123
+[15:17:42] [Server thread/WARN]: [WorldResourcepacks] There is already a pack with same hash 'abcdef012345678abcdef012345678abcdef0123' as pack 'globalpack' (globalpack) defined: examplepack This might cause issues in some cases especially when sending packs from a Minecraft server with this plugin on the proxy!
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=http://example.com/globalpack.zip, uuid=be201d94-62f7-3ec2-8104-1e68a817b29d, hash=abcdef012345678abcdef012345678abcdef0123, local-path=null, format=null, version=null, restricted=false, permission=worldresourcepacks.pack.globalpack, type=null, variants=null}
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] gamepack - 2 variants
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=null, uuid=null, hash=null, local-path=null, format=null, version=null, restricted=false, permission=worldresourcepacks.pack.gamepack, type=null, variants=[{url=http://example.com/minigameresourcepack_1_15.zip, uuid=c8928dd9-ab47-385a-b0c4-b0adc844d911, hash=012345678abcdef012345678abcdef012345678a, local-path=null, format=null, version=1.15, restricted=false, permission=worldresourcepacks.pack.gamepack-variant-1, type=null, variants=null}, {url=http://example.com/minigameresourcepack_1_12.zip, uuid=d700594a-c620-3a4a-b92c-b982494837b7, hash=012345678abcdef01234567dddcdef012345678a, local-path=null, format=null, version=1.12, restricted=false, permission=worldresourcepacks.pack.gamepack-variant-2, type=null, variants=null}]}
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] another_example_pack - http://example.com/another.zip - abcdef012345678abcdef012345678abcdef0123
+[15:17:42] [Server thread/WARN]: [WorldResourcepacks] There is already a pack with same hash 'abcdef012345678abcdef012345678abcdef0123' as pack 'another_example_pack' (another_example_pack) defined: examplepack This might cause issues in some cases especially when sending packs from a Minecraft server with this plugin on the proxy!
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] {url=http://example.com/another.zip, uuid=ea53db8c-812f-3c6c-a1f2-6eb124efc9fb, hash=abcdef012345678abcdef012345678abcdef0123, local-path=null, format=null, version=null, restricted=false, permission=worldresourcepacks.pack.another_example_pack, type=null, variants=null}
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Empty pack - http://cdn.moep.tv/files/Empty.zip - 01517226212d27586ea0c5d6aff1aa5492dd2484
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Loading global assignment...
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: globalpack
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send delay: 10
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=global, packs=[globalpack], optional-packs=[], sendDelay=10}
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Loading world assignments...
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world your_example_world...
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Packs:
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] - examplepack
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] - globalpack
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=your_example_world, packs=[examplepack, globalpack], optional-packs=[], sendDelay=-1}
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world your_example_nether...
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Regex: example_nether_.*
+[15:17:42] [Server thread/WARN]: [WorldResourcepacks] No pack with the name examplepack2 defined?
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=your_example_nether, packs=[], optional-packs=[], sendDelay=-1, regex=example_nether_.*}
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Loading assignment for world another_example_world...
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Pack: another_example_pack
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Loaded PackAssignment{name=another_example_world, packs=[another_example_pack], optional-packs=[], sendDelay=-1}
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Stored packs override assignments: false
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Append hash to pack URL: true
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Detected server server protocol version 772!
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Detected internal server version craftbukkit
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Using InternalHelper_fallback
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] Detected AuthMe 5.6.0-bCUSTOM
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] 
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks]   If you enjoy my WorldResourcepacks plugin then you might also be
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks]   interested in the more advanced ForceResourcepacks version!
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] 
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks]   Besides getting additional features like WorldGuard support and
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks]   the ability to force a player to accept the resources pack you
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks]   will also support the continued development of this plugin!
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] 
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks]   Check it out here on spigotmc.org: https://s.moep.tv/frp
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] 
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks]   - Phoenix616
+[15:17:42] [Server thread/INFO]: [WorldResourcepacks] 
+[15:17:42] [Server thread/INFO]: [WorldBorder] Enabling WorldBorder v2.1.5
+[15:17:42] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Generating hashes...
+[15:17:42] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading examplepack...
+[15:17:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Using rectangular/square border, knockback of 3.0 blocks, and timer delay of 5.
+[15:17:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task started.
+[15:17:42] [Server thread/INFO]: [WorldBorder] [CONFIG] Configuration not present, creating new file.
+[15:17:42] [Server thread/INFO]: [WorldBorder] For reference, the main world's spawn location is at X: 224,0 Y: 71,0 Z: -128,0
+[15:17:42] [Server thread/INFO]: [TelegramChat] Enabling TelegramChat v1.0.21-SNAPSHOT*
+[15:17:43] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load examplepack! FileNotFoundException: http://example.com/lobbyresourcepack.zip
+[15:17:43] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack examplepack from url http://example.com/lobbyresourcepack.zip
+[15:17:43] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading globalpack...
+[15:17:43] [Server thread/WARN]: [TelegramChat] Sorry, but could not connect to Telegram servers. The token could be wrong.
+[15:17:43] [Server thread/INFO]: [TAB] Enabling TAB v5.2.5
+[15:17:43] [Server thread/INFO]: [TAB] Enabled in 230ms
+[15:17:43] [Server thread/INFO]: [skript-yaml] Enabling skript-yaml v1.7.2
+[15:17:43] [Server thread/INFO]: [SkQuery] Enabling SkQuery v4.3.2
+[15:17:43] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load globalpack! FileNotFoundException: http://example.com/globalpack.zip
+[15:17:43] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack globalpack from url http://example.com/globalpack.zip
+[15:17:43] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading gamepack-variant-1...
+[15:17:43] [Server thread/INFO]: [skQuery] Beginning to process a total of 152 from SkQuery
+[15:17:43] [Server thread/INFO]: [skQuery] com.skquery.skquery.elements.effects.base.OptionsPragma is patternless and failed to register. This is most likely a code error.
+[15:17:43] [Server thread/INFO]: [skQuery] com.skquery.skquery.elements.effects.base.Pragma is patternless and failed to register. This is most likely a code error.
+[15:17:43] [Server thread/INFO]: [skQuery] Out of 152 classes, 102 classes were loaded from SkQuery
+[15:17:43] [Server thread/INFO]: [Shopkeepers] Enabling Shopkeepers v2.23.10
+[15:17:43] [Server thread/INFO]: [ServerEssentials] Enabling ServerEssentials v2.2.4
+[15:17:43] [Server thread/INFO]: *********************
+[15:17:43] [Server thread/INFO]: [SUCCESS] Server Essentials has been enabled.
+[15:17:43] [Server thread/INFO]: [INFO] Lang.yml file doesn't exist, creating now...
+[15:17:43] [Server thread/INFO]: [SUCCESS] Lang.yml file created
+[15:17:43] [Server thread/INFO]: [SUCCESS] Config.yml has been initialised.
+[15:17:43] [Server thread/INFO]: [SUCCESS] PlaceholderAPI has been enabled.
+[15:17:43] [Server thread/INFO]: [WARNING] DiscordSRV is not installed!
+[15:17:43] [Server thread/INFO]: [SUCCESS] Vault has been enabled.
+[15:17:43] [Server thread/INFO]: [SUCCESS] Registered ServerEssentials as Vault Economy provider.
+[15:17:43] [Server thread/INFO]: [ServerEssentials] Economy provider loaded: ServerEssentials
+[15:17:43] [Server thread/INFO]: [INFO] Rules.yml file doesn't exist, creating now...
+[15:17:43] [Server thread/INFO]: [SUCCESS] Rules.yml file created
+[15:17:43] [Server thread/INFO]: [INFO] Spawn.yml file doesn't exist, creating now...
+[15:17:43] [Server thread/INFO]: [SUCCESS] Spawn.yml file created
+[15:17:43] [Server thread/INFO]: [INFO] Home.yml file doesn't exist, creating now...
+[15:17:43] [Server thread/INFO]: [SUCCESS] Home.yml file created
+[15:17:43] [Server thread/INFO]: [INFO] Warp.yml file doesn't exist, creating now...
+[15:17:43] [Server thread/INFO]: [SUCCESS] Warp.yml file created
+[15:17:43] [Server thread/INFO]: [INFO] userinfo.yml file doesn't exist, creating now...
+[15:17:43] [Server thread/INFO]: [SUCCESS] userinfo.yml file created
+[15:17:43] [Server thread/INFO]: [SUCCESS] Commands have been enabled.
+[15:17:43] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: se [1.0]
+[15:17:43] [Server thread/INFO]: [SUCCESS] Events have been enabled.
+[15:17:43] [Server thread/INFO]: *********************
+[15:17:43] [Server thread/INFO]: [ProtectionStones] Enabling ProtectionStones v2.10.5
+[15:17:43] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.GreetingFlagHandler
+[15:17:43] [Server thread/INFO]: [WorldGuard] Registering session handler dev.espi.protectionstones.flags.FarewellFlagHandler
+[15:17:43] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load gamepack-variant-1! FileNotFoundException: http://example.com/minigameresourcepack_1_15.zip
+[15:17:43] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack gamepack-variant-1 from url http://example.com/minigameresourcepack_1_15.zip
+[15:17:43] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading gamepack-variant-2...
+[15:17:43] [ForkJoinPool.commonPool-worker-1/INFO]: [Skript-Yaml] Skript-Yaml is up to date!
+[15:17:44] [Server thread/INFO]: [ProtectionStones] PlaceholderAPI support enabled!
+[15:17:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: protectionstones [2.10.5]
+[15:17:44] [Server thread/INFO]: [ProtectionStones] LuckPerms support enabled!
+[15:17:44] [Server thread/INFO]: [ProtectionStones] Protection Stone Blocks:
+[15:17:44] [Server thread/INFO]: [ProtectionStones] - EMERALD_ORE (64)
+[15:17:44] [Server thread/INFO]: [ProtectionStones] Building region cache...
+[15:17:44] [Server thread/INFO]: [ProtectionStones] Building UUID cache... (if slow change async-load-uuid-cache in the config to true)
+[15:17:44] [Server thread/INFO]: [ProtectionStones] Checking if PS regions have been updated to UUIDs...
+[15:17:44] [Server thread/INFO]: [ProtectionStones] §fProtectionStones has successfully started!
+[15:17:44] [Server thread/INFO]: [LPC] Enabling LPC v3.6.2
+[15:17:44] [Server thread/INFO]: [LootCrate] Enabling LootCrate v0.11.6
+[15:17:44] [Server thread/INFO]: 
+[15:17:44] [Server thread/INFO]: 
+[15:17:44] [Server thread/INFO]: [  LootCrate v0.11.6  ]
+[15:17:44] [Server thread/INFO]: 
+[15:17:44] [Server thread/INFO]: Running Paper v1.21.8-R0.1-SNAPSHOT.
+[15:17:44] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load gamepack-variant-2! FileNotFoundException: http://example.com/minigameresourcepack_1_12.zip
+[15:17:44] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack gamepack-variant-2 from url http://example.com/minigameresourcepack_1_12.zip
+[15:17:44] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading another_example_pack...
+[15:17:44] [Server thread/INFO]: Loaded 0 crate(s).
+[15:17:44] [Server thread/INFO]: No Hologram Plugin Found. Disabling Hologram Feature.
+[15:17:44] [Server thread/INFO]: Detected bStats Metrics.
+[15:17:44] [Server thread/INFO]: 
+[15:17:44] [Server thread/INFO]: [ItemEditor] Enabling ItemEditor v2.1.0
+[15:17:44] [Server thread/INFO]: [ItemEditor] Reloading items.
+[15:17:44] [Server thread/INFO]: [ItemEditor] Loaded 0 items from storage.
+[15:17:44] [Server thread/INFO]: [ItemEditor] Enabled PlaceholderAPI support.
+[15:17:44] [Server thread/INFO]: [GSit] Enabling GSit v2.4.3
+[15:17:44] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gsit [2.4.3]
+[15:17:44] [Server thread/INFO]: [WorldGuard] Registering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[15:17:44] [WorldResourcepacks Thread - 1/ERROR]: [WorldResourcepacks] Could not load another_example_pack! FileNotFoundException: http://example.com/another.zip
+[15:17:44] [WorldResourcepacks Thread - 1/WARN]: [WorldResourcepacks] IO error while trying to generate hash of pack another_example_pack from url http://example.com/another.zip
+[15:17:44] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] Downloading empty...
+[15:17:44] [Server thread/INFO]: [GSit] The plugin was successfully enabled.
+[15:17:44] [Server thread/INFO]: [GSit] Link with PlaceholderAPI successful!
+[15:17:44] [Server thread/INFO]: [GSit] Link with WorldGuard successful!
+[15:17:44] [Server thread/INFO]: [GravesX] Enabling GravesX v4.9.7.3
+[15:17:44] [Server thread/INFO]: [GravesX] Loading Libraries for GravesX
+[15:17:44] [Server thread/INFO]: [GravesX] Loading library com.zaxxer.HikariCP version 6.0.0.
+[15:17:44] [Server thread/INFO]: [GravesX] Loading library com.zaxxer:HikariCP:6.0.0
+[15:17:45] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] SHA 1 hash of empty: 01517226212d27586ea0c5d6aff1aa5492dd2484
+[15:17:45] [WorldResourcepacks Thread - 1/INFO]: [WorldResourcepacks] No hash changed!
+[15:17:45] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/com/zaxxer/HikariCP/6.0.0/HikariCP-6.0.0.jar
+[15:17:45] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/org/ow2/asm/asm-commons/9.7/asm-commons-9.7.jar
+[15:17:45] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/org/ow2/asm/asm/9.7/asm-9.7.jar
+[15:17:45] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/me/lucko/jar-relocator/1.7/jar-relocator-1.7.jar
+[15:17:45] [Server thread/INFO]: [GravesX] Relocations applied to HikariCP-6.0.0.jar
+[15:17:49] [Server thread/INFO]: [GravesX] Downloaded library https://repo.alessiodp.com/releases/com/alessiodp/libby/maven/resolver/libby-maven-resolver/1.0.1/libby-maven-resolver-1.0.1.jar
+[15:17:54] [Server thread/INFO]: [GravesX] Loading library org.slf4j:slf4j-api:1.7.36
+[15:17:54] [Server thread/INFO]: [GravesX] Relocations applied to slf4j-api-1.7.36.jar
+[15:17:54] [Server thread/INFO]: [GravesX] Loading library org.javassist:javassist:3.29.2-GA
+[15:17:54] [Server thread/INFO]: [GravesX] Relocations applied to javassist-3.29.2-GA.jar
+[15:17:54] [Server thread/INFO]: [GravesX] Loading library io.micrometer:micrometer-core:1.5.10
+[15:17:54] [Server thread/INFO]: [GravesX] Relocations applied to micrometer-core-1.5.10.jar
+[15:17:54] [Server thread/INFO]: [GravesX] Loading library org.hdrhistogram:HdrHistogram:2.1.12
+[15:17:54] [Server thread/INFO]: [GravesX] Relocations applied to HdrHistogram-2.1.12.jar
+[15:17:54] [Server thread/INFO]: [GravesX] Loading library org.latencyutils:LatencyUtils:2.0.3
+[15:17:54] [Server thread/INFO]: [GravesX] Relocations applied to LatencyUtils-2.0.3.jar
+[15:17:54] [Server thread/INFO]: [GravesX] Loaded library com.zaxxer.HikariCP version 6.0.0 and shaded successfully.
+[15:17:54] [Server thread/INFO]: [GravesX] Loading library org.xerial.sqlite-jdbc version 3.47.0.0.
+[15:17:54] [Server thread/INFO]: [GravesX] Loading library org.xerial:sqlite-jdbc:3.47.0.0
+[15:17:55] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/org/xerial/sqlite-jdbc/3.47.0.0/sqlite-jdbc-3.47.0.0.jar
+[15:17:56] [Server thread/INFO]: [GravesX] Loading library org.slf4j:slf4j-api:1.7.36
+[15:17:56] [Server thread/INFO]: [GravesX] Loaded library org.xerial.sqlite-jdbc version 3.47.0.0 successfully.
+[15:17:57] [Server thread/INFO]: [GravesX] Loading library org.json.json version 20240303.
+[15:17:57] [Server thread/INFO]: [GravesX] Loading library org.json:json:20240303
+[15:17:57] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/org/json/json/20240303/json-20240303.jar
+[15:17:57] [Server thread/INFO]: [GravesX] Loaded library org.json.json version 20240303 successfully.
+[15:17:57] [Server thread/INFO]: [GravesX] Loading library com.github.oshi.oshi-core version 6.6.5.
+[15:17:57] [Server thread/INFO]: [GravesX] Loading library com.github.oshi:oshi-core:6.6.5
+[15:17:57] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/com/github/oshi/oshi-core/6.6.5/oshi-core-6.6.5.jar
+[15:18:01] [Server thread/INFO]: [GravesX] Loading library net.java.dev.jna:jna:5.15.0
+[15:18:01] [Server thread/INFO]: [GravesX] Loading library net.java.dev.jna:jna-platform:5.15.0
+[15:18:01] [Server thread/INFO]: [GravesX] Loading library org.slf4j:slf4j-api:2.0.16
+[15:18:01] [Server thread/INFO]: [GravesX] Loaded library com.github.oshi.oshi-core version 6.6.5 successfully.
+[15:18:01] [Server thread/INFO]: [GravesX] Loading library com.h2database.h2 version 2.3.232.
+[15:18:01] [Server thread/INFO]: [GravesX] Loading library com.h2database:h2:2.3.232
+[15:18:01] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/com/h2database/h2/2.3.232/h2-2.3.232.jar
+[15:18:02] [Server thread/INFO]: [GravesX] Relocations applied to h2-2.3.232.jar
+[15:18:03] [Server thread/INFO]: [GravesX] Loaded library com.h2database.h2 version 2.3.232 and shaded successfully.
+[15:18:03] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-api version 4.17.0.
+[15:18:03] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
+[15:18:03] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/net/kyori/adventure-api/4.17.0/adventure-api-4.17.0.jar
+[15:18:04] [Server thread/INFO]: [GravesX] Relocations applied to adventure-api-4.17.0.jar
+[15:18:07] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
+[15:18:07] [Server thread/INFO]: [GravesX] Relocations applied to adventure-key-4.17.0.jar
+[15:18:07] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
+[15:18:08] [Server thread/INFO]: [GravesX] Relocations applied to examination-api-1.3.0.jar
+[15:18:08] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
+[15:18:08] [Server thread/INFO]: [GravesX] Relocations applied to examination-string-1.3.0.jar
+[15:18:08] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
+[15:18:08] [Server thread/INFO]: [GravesX] Relocations applied to annotations-24.1.0.jar
+[15:18:08] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-api version 4.17.0 and shaded successfully.
+[15:18:08] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-text-minimessage version 4.17.0.
+[15:18:08] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-minimessage:4.17.0
+[15:18:08] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/net/kyori/adventure-text-minimessage/4.17.0/adventure-text-minimessage-4.17.0.jar
+[15:18:08] [Server thread/INFO]: [GravesX] Relocations applied to adventure-text-minimessage-4.17.0.jar
+[15:18:09] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
+[15:18:09] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
+[15:18:09] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
+[15:18:09] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
+[15:18:09] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
+[15:18:09] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-text-minimessage version 4.17.0 and shaded successfully.
+[15:18:09] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-text-serializer-gson version 4.17.0.
+[15:18:09] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson:4.17.0
+[15:18:09] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/net/kyori/adventure-text-serializer-gson/4.17.0/adventure-text-serializer-gson-4.17.0.jar
+[15:18:09] [Server thread/INFO]: [GravesX] Relocations applied to adventure-text-serializer-gson-4.17.0.jar
+[15:18:12] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-json:4.17.0
+[15:18:12] [Server thread/INFO]: [GravesX] Relocations applied to adventure-text-serializer-json-4.17.0.jar
+[15:18:12] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.17.0
+[15:18:12] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.17.0
+[15:18:12] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
+[15:18:12] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
+[15:18:12] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.1.0
+[15:18:12] [Server thread/INFO]: [GravesX] Loading library net.kyori:option:1.0.0
+[15:18:13] [Server thread/INFO]: [GravesX] Relocations applied to option-1.0.0.jar
+[15:18:13] [Server thread/INFO]: [GravesX] Loading library com.google.code.gson:gson:2.8.0
+[15:18:13] [Server thread/INFO]: [GravesX] Relocations applied to gson-2.8.0.jar
+[15:18:13] [Server thread/INFO]: [GravesX] Loading library com.google.auto.service:auto-service-annotations:1.1.1
+[15:18:13] [Server thread/INFO]: [GravesX] Relocations applied to auto-service-annotations-1.1.1.jar
+[15:18:13] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-text-serializer-gson version 4.17.0 and shaded successfully.
+[15:18:13] [Server thread/INFO]: [GravesX] Loading library net.kyori.adventure-platform-bukkit version 4.3.3.
+[15:18:13] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-bukkit:4.3.3
+[15:18:13] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/net/kyori/adventure-platform-bukkit/4.3.3/adventure-platform-bukkit-4.3.3.jar
+[15:18:13] [Server thread/INFO]: [GravesX] Relocations applied to adventure-platform-bukkit-4.3.3.jar
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-api:4.3.3
+[15:18:19] [Server thread/INFO]: [GravesX] Relocations applied to adventure-platform-api-4.3.3.jar
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-api:4.13.1
+[15:18:19] [Server thread/INFO]: [GravesX] Relocations applied to adventure-api-4.13.1.jar
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-key:4.13.1
+[15:18:19] [Server thread/INFO]: [GravesX] Relocations applied to adventure-key-4.13.1.jar
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-bungeecord:4.3.3
+[15:18:19] [Server thread/INFO]: [GravesX] Relocations applied to adventure-text-serializer-bungeecord-4.3.3.jar
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-legacy:4.13.1
+[15:18:19] [Server thread/INFO]: [GravesX] Relocations applied to adventure-text-serializer-legacy-4.13.1.jar
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-nbt:4.13.1
+[15:18:19] [Server thread/INFO]: [GravesX] Relocations applied to adventure-nbt-4.13.1.jar
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-api:1.3.0
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library net.kyori:examination-string:1.3.0
+[15:18:19] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:24.0.1
+[15:18:20] [Server thread/INFO]: [GravesX] Relocations applied to annotations-24.0.1.jar
+[15:18:20] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson:4.13.1
+[15:18:20] [Server thread/INFO]: [GravesX] Relocations applied to adventure-text-serializer-gson-4.13.1.jar
+[15:18:20] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-text-serializer-gson-legacy-impl:4.13.1
+[15:18:20] [Server thread/INFO]: [GravesX] Relocations applied to adventure-text-serializer-gson-legacy-impl-4.13.1.jar
+[15:18:20] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-facet:4.3.3
+[15:18:20] [Server thread/INFO]: [GravesX] Relocations applied to adventure-platform-facet-4.3.3.jar
+[15:18:20] [Server thread/INFO]: [GravesX] Loading library net.kyori:adventure-platform-viaversion:4.3.3
+[15:18:20] [Server thread/INFO]: [GravesX] Relocations applied to adventure-platform-viaversion-4.3.3.jar
+[15:18:20] [Server thread/INFO]: [GravesX] Loaded library net.kyori.adventure-platform-bukkit version 4.3.3 and shaded successfully.
+[15:18:20] [Server thread/INFO]: [GravesX] Loading library com.github.puregero.multilib version 1.2.4.
+[15:18:20] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib:1.2.4
+[15:18:21] [Server thread/INFO]: [GravesX] Downloaded library https://repo.clojars.org/com/github/puregero/multilib/1.2.4/multilib-1.2.4.jar
+[15:18:21] [Server thread/INFO]: [GravesX] Relocations applied to multilib-1.2.4.jar
+[15:18:31] [Server thread/INFO]: [GravesX] Loading library org.jetbrains:annotations:22.0.0
+[15:18:32] [Server thread/INFO]: [GravesX] Relocations applied to annotations-22.0.0.jar
+[15:18:32] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-common:1.2.4
+[15:18:32] [Server thread/INFO]: [GravesX] Relocations applied to multilib-common-1.2.4.jar
+[15:18:32] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-bukkit:1.2.4
+[15:18:32] [Server thread/INFO]: [GravesX] Relocations applied to multilib-bukkit-1.2.4.jar
+[15:18:32] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:multilib-multipaper:1.2.4
+[15:18:32] [Server thread/INFO]: [GravesX] Relocations applied to multilib-multipaper-1.2.4.jar
+[15:18:32] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-common:1.2.4
+[15:18:32] [Server thread/INFO]: [GravesX] Relocations applied to regionized-common-1.2.4.jar
+[15:18:32] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-bukkit:1.2.4
+[15:18:32] [Server thread/INFO]: [GravesX] Relocations applied to regionized-bukkit-1.2.4.jar
+[15:18:32] [Server thread/INFO]: [GravesX] Loading library com.github.puregero:regionized-paper:1.2.4
+[15:18:32] [Server thread/INFO]: [GravesX] Relocations applied to regionized-paper-1.2.4.jar
+[15:18:32] [Server thread/INFO]: [GravesX] Loaded library com.github.puregero.multilib version 1.2.4 and shaded successfully.
+[15:18:32] [Server thread/INFO]: [GravesX] Loading library org.apache.commons.commons-text version 1.12.0.
+[15:18:32] [Server thread/INFO]: [GravesX] Loading library org.apache.commons:commons-text:1.12.0
+[15:18:33] [Server thread/INFO]: [GravesX] Downloaded library https://repo1.maven.org/maven2/org/apache/commons/commons-text/1.12.0/commons-text-1.12.0.jar
+[15:18:33] [Server thread/INFO]: [GravesX] Relocations applied to commons-text-1.12.0.jar
+[15:18:36] [Server thread/INFO]: [GravesX] Loading library org.apache.commons:commons-lang3:3.14.0
+[15:18:37] [Server thread/INFO]: [GravesX] Relocations applied to commons-lang3-3.14.0.jar
+[15:18:37] [Server thread/INFO]: [GravesX] Loaded library org.apache.commons.commons-text version 1.12.0 and shaded successfully.
+[15:18:37] [Server thread/INFO]: [GravesX] Finished Loading Libraries for GravesX.
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Hooked into Vault 2.15.1. Economy is enabled.
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Hooked into Vault 2.15.1's permissions provider.
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Hooked into WorldEdit 7.3.16+cbf4bd5.
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Hooked into MiniMessage.
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Hooked into Minedown Adventure.
+[15:18:40] [Server thread/INFO]: [PlaceholderAPI] Successfully registered internal expansion: gravesx [4.9.7.3]
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Hooked into PlaceholderAPI 2.11.6.
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Hooked into LuckPerms 5.5.10.
+[15:18:40] [Server thread/INFO]: [Skript]     The plugin GravesX uses a non-standard version syntax: '4.9.7.3'. Skript will use 4.9.7 instead.
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Skript integration loaded successfully.
+[15:18:40] [Server thread/INFO]: [GravesX] Integration: Hooked into Skript 2.12.1.
+[15:18:40] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Starting...
+[15:18:45] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.pool.HikariPool] Graves H2 - Added connection conn1: url=jdbc:h2:file:F:\Github\Mundito-4\plugins\GravesX\data\graves.data user=SA
+[15:18:45] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Start completed.
+[15:18:45] [Server thread/WARN]: [GravesX] SQLite database file or folder does not exist in "plugins\GravesX\data". Skipping database migration.
+[15:18:45] [Server thread/INFO]: [GravesX] Metrics has been enabled. All metrics will be sent to https://bstats.org/plugin/bukkit/Graves/12849 and https://bstats.org/plugin/bukkit/GravesX/23069.
+[15:18:45] [Server thread/INFO]: [ClearLag] Enabling ClearLag v3.2.2
+[15:18:45] [Server thread/INFO]: [ClearLag] Using version-adapter: LatestVersionAdapter
+[15:18:45] [Server thread/INFO]: [ClearLag] Config not found. Generating default config...
+[15:18:45] [Server thread/INFO]: [ClearLag] Loading modules...
+[15:18:45] [Server thread/WARN]: [ClearLag] Clearlag failed to use the internal TPS tracker during initialization. Reverted to estimation... (Index 3 out of bounds for length 3)
+[15:18:45] [Server thread/INFO]: [ClearLag] Modules enabed, loading config values
+[15:18:46] [Server thread/INFO]: [ClearLag] Modules have been loaded!
+[15:18:46] [Server thread/INFO]: [ClearLag] Clearlag is now enabled!
+[15:18:46] [Thread-15/WARN]: [ClearLag] Clearlag failed to check for updates - bukkit may be down
+[15:18:46] [Thread-15/WARN]: java.lang.ArrayIndexOutOfBoundsException: Index 3 out of bounds for length 3
+[15:18:46] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.Util.getBukkitVersion(Util.java:105)
+[15:18:46] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.updateAvailable(BukkitUpdater.java:32)
+[15:18:46] [Thread-15/WARN]: 	at Clearlag.jar//me.minebuilders.clearlag.BukkitUpdater.run(BukkitUpdater.java:82)
+[15:18:46] [Thread-15/WARN]: 	at java.base/java.lang.Thread.run(Thread.java:1583)
+[15:18:46] [Server thread/INFO]: [AD] Enabling AdvancedDisplays v1.6.1
+[15:18:46] [Server thread/ERROR]: [AD] Unknown NMS version! Version: 1.21.8
+[15:18:46] [Server thread/ERROR]: [AD] The plugin may not be updated to support the server's version.
+[15:18:46] [Server thread/ERROR]: [AD] If you're using a version lower than 1.19.4, upgrade to 1.19.4 or higher to use this plugin.
+[15:18:46] [Server thread/ERROR]: [AD] The plugin will be disabled...
+[15:18:46] [Server thread/INFO]: [AD] Disabling AdvancedDisplays v1.6.1
+[15:18:46] [Server thread/INFO]: [spark] Starting background profiler...
+[15:18:46] [Server thread/INFO]: [spark] The async-profiler engine is not supported for your os/arch (windows11/amd64), so the built-in Java engine will be used instead.
+[15:18:46] [Server thread/INFO]: [PlaceholderAPI] Placeholder expansion registration initializing...
+[15:18:46] [Server thread/INFO]: Done preparing level "world" (70.164s)
+[15:18:46] [Server thread/INFO]: Running delayed init tasks
+[15:18:46] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] Downloading GEO IP database, because the old database is older than 30 days or doesn't exist
+[15:18:46] [Craft Scheduler Thread - 6 - AuthMe/WARN]: [AuthMe] No MaxMind credentials found in the configuration file! GeoIp protections will be disabled.
+[15:18:46] [Craft Scheduler Thread - 6 - AuthMe/INFO]: [AuthMe] There is no newer GEO IP database uploaded to MaxMind. Using the old one for now.
+[15:18:46] [Craft Scheduler Thread - 6 - AuthMe/WARN]: [AuthMe] Could not download GeoLiteAPI database [FileNotFoundException]: plugins\AuthMe\GeoLite2-Country.mmdb (El sistema no puede encontrar el archivo especificado)
+[15:18:46] [Craft Scheduler Thread - 11 - GravesX/INFO]: [GravesX] Loading grave maps...
+[15:18:46] [Craft Scheduler Thread - 11 - GravesX/INFO]: [GravesX] Found 0 grave maps to load into cache.
+[15:18:46] [Server thread/INFO]: [Skript] Loading variables...
+[15:18:46] [Server thread/INFO]: [Skript] Loaded 0 variables in 0.0 seconds
+[15:18:46] [Server thread/INFO]: [Skript] All scripts loaded without errors.
+[15:18:46] [Server thread/INFO]: [Skript]     No scripts were found, maybe you should write some ;)
+[15:18:46] [Server thread/INFO]: [Skript] Finished loading.
+[15:18:46] [Server thread/INFO]: [GravesX] Registering Crash Handler...
+[15:18:46] [Server thread/INFO]: [GravesX] Registered Crash Handler. Server will handle crashes in a separate thread.
+[15:18:46] [Server thread/INFO]: 0 placeholder hook(s) registered!
+[15:18:46] [Server thread/INFO]: Done (109.975s)! For help, type "help"
+[15:18:46] [Craft Scheduler Thread - 8 - GravesX/INFO]: [GravesX] Loading Entity Map Cache for armorstand...
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/INFO]: [GravesX] Loading Entity Map Cache for itemframe...
+[15:18:46] [Craft Scheduler Thread - 45 - GravesX/INFO]: [GravesX] Loading Holograms into Hologram Map Cache...
+[15:18:46] [Craft Scheduler Thread - 44 - GravesX/INFO]: [GravesX] Loading Block Map cache...
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] Error occurred while loading Entity Map: (Message 42S02 not found); SQL statement:
+SELECT * FROM itemframe; [42102-232]
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:514)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.message.DbException.getJdbcSQLException(DbException.java:489)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:223)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.message.DbException.get(DbException.java:199)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7945)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.getTableOrViewNotFoundDbException(Parser.java:7916)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.readTableOrView(Parser.java:7895)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.readTablePrimary(Parser.java:1769)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.readTableReference(Parser.java:2249)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parseSelectFromPart(Parser.java:2702)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parseSelect(Parser.java:2810)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parseQueryPrimary(Parser.java:2692)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parseQueryTerm(Parser.java:2547)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parseQueryExpressionBody(Parser.java:2526)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parseQueryExpressionBodyAndEndOfQuery(Parser.java:2519)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parseQueryExpression(Parser.java:2512)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parseQuery(Parser.java:2479)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parsePrepared(Parser.java:610)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parse(Parser.java:581)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.parse(Parser.java:556)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.command.Parser.prepareCommand(Parser.java:484)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.engine.SessionLocal.prepareLocal(SessionLocal.java:645)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.engine.SessionLocal.prepareCommand(SessionLocal.java:561)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.jdbc.JdbcConnection.prepareCommand(JdbcConnection.java:1164)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.jdbc.JdbcPreparedStatement.<init>(JdbcPreparedStatement.java:93)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.h2.jdbc.JdbcConnection.prepareStatement(JdbcConnection.java:315)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.hikari.pool.ProxyConnection.prepareStatement(ProxyConnection.java:328)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.libraries.hikari.pool.HikariProxyConnection.prepareStatement(HikariProxyConnection.java)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] GravesX-4.9.7.3.jar//com.ranull.graves.manager.DataManager.lambda$loadEntityMap$2(DataManager.java:1281)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] org.bukkit.craftbukkit.scheduler.CraftTask.run(CraftTask.java:78)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] org.bukkit.craftbukkit.scheduler.CraftAsyncTask.run(CraftAsyncTask.java:57)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] com.destroystokyo.paper.ServerSchedulerReportingWrapper.run(ServerSchedulerReportingWrapper.java:22)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+[15:18:46] [Craft Scheduler Thread - 6 - GravesX/ERROR]: [GravesX] java.base/java.lang.Thread.run(Thread.java:1583)
+[15:18:46] [Craft Scheduler Thread - 8 - GravesX/INFO]: [GravesX] Loaded 0 entities into Entity Map Cache for armorstand.
+[15:18:46] [Craft Scheduler Thread - 45 - GravesX/INFO]: [GravesX] Loaded 0 Holograms into Hologram Map Cache.
+[15:18:46] [Craft Scheduler Thread - 44 - GravesX/INFO]: [GravesX] Loaded 0 Blocks into Block Map Cache.
+[15:18:46] [Craft Scheduler Thread - 9 - ServerEssentials/INFO]: [SUCCESS] Server Essentials is up to date!
+[15:18:46] [Server thread/INFO]: lorspi (/127.0.0.1:63124) lost connection: Disconnected
+[15:18:46] [Craft Scheduler Thread - 10 - GravesX/WARN]: [GravesX] You are using an outdated version of GravesX.
+[15:18:46] [Craft Scheduler Thread - 10 - GravesX/WARN]: [GravesX] Installed Version: 4.9.7.3
+[15:18:46] [Craft Scheduler Thread - 10 - GravesX/WARN]: [GravesX] Latest Version:  4.9.8.2
+[15:18:46] [Craft Scheduler Thread - 10 - GravesX/WARN]: [GravesX] Grab the latest release from https://www.spigotmc.org/resources/118271/
+[15:19:08] [User Authenticator #0/INFO]: Disconnecting lorspi (/127.0.0.1:63404): You are not in simple whitelist!
+[15:19:08] [User Authenticator #0/INFO]: UUID of player lorspi is f8862d2c-39bb-4246-aacc-ce55a2fca150
+[15:19:08] [Server thread/INFO]: lorspi (/127.0.0.1:63404) lost connection: You are not in simple whitelist!
+[15:19:16] [Server thread/INFO]: lorspi added to whitelist!
+[15:19:20] [User Authenticator #0/INFO]: UUID of player lorspi is f8862d2c-39bb-4246-aacc-ce55a2fca150
+[15:19:20] [Server thread/INFO]: [HorriblePlayerLoginEventHack] You have plugins listening to the PlayerLoginEvent, this will cause re-configuration APIs to be unavailable: [LuckPerms, AuthMe, WorldResourcepacks, WorldGuard]
+[15:19:20] [Server thread/INFO]: [+] lorspi
+[15:19:20] [Server thread/INFO]: lorspi[/127.0.0.1:63407] logged in with entity id 108 at ([world]235.4504545579971, 70.0, -137.13980298246497)
+[15:19:21] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Player f8862d2c-39bb-4246-aacc-ce55a2fca150 is not authenticated, not attempting to send a pack yet.
+[15:19:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] lorspi authenticated! Sending pack in 10 ticks...
+[15:19:39] [Server thread/WARN]: [WorldResourcepacks] Can't send data to proxy on channel authLogin as no authentication key is set!
+If you are using the plugin on both the proxy and the Minecraft servers as well then this is an error! Make sure the same key is set in the plugin's key.yml on the proxy and all your servers!
+If you are not using the plugin on the proxy then you can just ignore this warning! The key should be set automatically to empty on the next join. (Otherwise just set an empty key yourself)
+[15:19:39] [Server thread/INFO]: [AuthMe] lorspi registered 127.0.0.1
+[15:19:39] [Craft Scheduler Thread - 4 - AuthMe/INFO]: [AuthMe] lorspi logged in 127.0.0.1
+[15:19:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] lorspi authenticated! Sending pack in 10 ticks...
+[15:19:39] [Server thread/WARN]: [WorldResourcepacks] Can't send data to proxy on channel authLogin as no authentication key is set!
+If you are using the plugin on both the proxy and the Minecraft servers as well then this is an error! Make sure the same key is set in the plugin's key.yml on the proxy and all your servers!
+If you are not using the plugin on the proxy then you can just ignore this warning! The key should be set automatically to empty on the next join. (Otherwise just set an empty key yourself)
+[15:19:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] lorspi matched assignment global due to main packs
+[15:19:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] Send pack globalpack (http://example.com/globalpack.zip) to lorspi
+[15:19:39] [Server thread/WARN]: [WorldResourcepacks] Can't send data to proxy on channel packsChange as no authentication key is set!
+If you are using the plugin on both the proxy and the Minecraft servers as well then this is an error! Make sure the same key is set in the plugin's key.yml on the proxy and all your servers!
+If you are not using the plugin on the proxy then you can just ignore this warning! The key should be set automatically to empty on the next join. (Otherwise just set an empty key yourself)
+[15:19:39] [Server thread/INFO]: [WorldResourcepacks] [DEBUG] lorspi matched assignment global due to main packs
+[15:19:39] [Server thread/WARN]: [WorldResourcepacks] Can't send data to proxy on channel packsChange as no authentication key is set!
+If you are using the plugin on both the proxy and the Minecraft servers as well then this is an error! Make sure the same key is set in the plugin's key.yml on the proxy and all your servers!
+If you are not using the plugin on the proxy then you can just ignore this warning! The key should be set automatically to empty on the next join. (Otherwise just set an empty key yourself)
+[15:20:35] [Server thread/INFO]: lorspi lost connection: Disconnected
+[15:20:35] [Server thread/WARN]: [WorldResourcepacks] Can't send data to proxy on channel clearPack as no authentication key is set!
+If you are using the plugin on both the proxy and the Minecraft servers as well then this is an error! Make sure the same key is set in the plugin's key.yml on the proxy and all your servers!
+If you are not using the plugin on the proxy then you can just ignore this warning! The key should be set automatically to empty on the next join. (Otherwise just set an empty key yourself)
+[15:20:35] [Server thread/INFO]: [-] lorspi
+[15:20:38] [Server thread/INFO]: Stopping the server
+[15:20:38] [Server thread/INFO]: Stopping server
+[15:20:38] [Server thread/INFO]: [ClearLag] Disabling ClearLag v3.2.2
+[15:20:38] [Server thread/INFO]: [ClearLag] Clearlag is now disabled!
+[15:20:38] [Server thread/INFO]: [GravesX] Disabling GravesX v4.9.7.3
+[15:20:38] [Server thread/INFO]: [GravesX] Shutting Down GravesX...
+[15:20:38] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Shutdown initiated...
+[15:20:38] [Server thread/INFO]: [com.ranull.graves.libraries.hikari.HikariDataSource] Graves H2 - Shutdown completed.
+[15:20:38] [Server thread/INFO]: [GravesX] Unloading GraveManager...
+[15:20:38] [Server thread/INFO]: [GravesX] Unloaded GraveManager Successfully.
+[15:20:38] [Server thread/INFO]: [GravesX] Unloading IntegrationManager...
+[15:20:38] [Server thread/INFO]: [GravesX] Unloaded IntegrationManager Successfully.
+[15:20:38] [Server thread/INFO]: [GravesX] Unloading RecipeManager...
+[15:20:38] [Server thread/INFO]: [GravesX] Unloaded RecipeManager Successfully.
+[15:20:38] [Server thread/INFO]: [GravesX] Shutdown Completed :)
+[15:20:38] [Server thread/INFO]: [GSit] Disabling GSit v2.4.3
+[15:20:38] [Server thread/INFO]: [WorldGuard] Unregistering session handler dev.geco.gsit.link.worldguard.RegionFlagHandler
+[15:20:38] [Server thread/INFO]: [GSit] The plugin was successfully disabled.
+[15:20:38] [Server thread/INFO]: [ItemEditor] Disabling ItemEditor v2.1.0
+[15:20:38] [Server thread/INFO]: [LootCrate] Disabling LootCrate v0.11.6
+[15:20:38] [Server thread/INFO]: [LPC] Disabling LPC v3.6.2
+[15:20:38] [Server thread/INFO]: [ProtectionStones] Disabling ProtectionStones v2.10.5
+[15:20:38] [Server thread/INFO]: [ServerEssentials] Disabling ServerEssentials v2.2.4
+[15:20:38] [Server thread/INFO]: *********************
+[15:20:38] [Server thread/INFO]: [WARNING] Server Essentials has been disabled.
+[15:20:38] [Server thread/INFO]: [WARNING] Config.yml has been uninitialised.
+[15:20:38] [Server thread/INFO]: [WARNING] PlaceholderAPI has been disabled.
+[15:20:38] [Server thread/INFO]: [WARNING] Vault has been disabled.
+[15:20:38] [Server thread/INFO]: [WARNING] Commands have been disabled.
+[15:20:38] [Server thread/INFO]: [WARNING] Events have been disabled.
+[15:20:38] [Server thread/INFO]: *********************
+[15:20:38] [Server thread/INFO]: [Shopkeepers] Disabling Shopkeepers v2.23.10
+[15:20:38] [Server thread/INFO]: [simplewhitelist] Disabling simplewhitelist v2.0.0
+[15:20:38] [Server thread/INFO]: [SkQuery] Disabling SkQuery v4.3.2
+[15:20:38] [Server thread/INFO]: [skript-yaml] Disabling skript-yaml v1.7.2
+[15:20:38] [Server thread/INFO]: [TAB] Disabling TAB v5.2.5
+[15:20:38] [Server thread/INFO]: [TAB] Disabled in 1ms
+[15:20:38] [Server thread/INFO]: [TelegramChat] Disabling TelegramChat v1.0.21-SNAPSHOT
+[15:20:38] [Server thread/INFO]: [WorldBorder] Disabling WorldBorder v2.1.5
+[15:20:38] [Server thread/INFO]: [WorldBorder] [CONFIG] Border-checking timed task stopped.
+[15:20:38] [Server thread/INFO]: [WorldResourcepacks] Disabling WorldResourcepacks v1.9.0 (build 624)
+[15:20:40] [Server thread/INFO]: [SkBee] Disabling SkBee v3.12.2
+[15:20:40] [Server thread/INFO]: [AuthMe] Disabling AuthMe v5.6.0-bCUSTOM
+[15:20:40] [Server thread/INFO]: [AuthMe] Waiting for 0 tasks to finish
+[15:20:40] [Server thread/INFO]: [AuthMe] AuthMe 5.6.0-bCUSTOM disabled!
+[15:20:40] [Server thread/INFO]: [Skript] Disabling Skript v2.12.1
+[15:20:40] [Server thread/INFO]: [WorldGuard] Disabling WorldGuard v7.0.14+2339-43997ec
+[15:20:40] [Server thread/INFO]: [WorldGuard] Shutting down executor and cancelling any pending tasks...
+[15:20:40] [Server thread/INFO]: [WorldEdit] Disabling WorldEdit v7.3.16+cbf4bd5
+[15:20:40] [Server thread/INFO]: Unregistering com.sk89q.worldedit.bukkit.BukkitServerInterface from WorldEdit
+[15:20:40] [Server thread/INFO]: [Vault] Disabling Vault v2.15.1
+[15:20:40] [Server thread/INFO]: [LuckPerms] Disabling LuckPerms v5.5.10
+[15:20:40] [Server thread/INFO]: [LuckPerms] Starting shutdown process...
+[15:20:40] [Server thread/INFO]: [LuckPerms] Closing storage...
+[15:20:40] [Server thread/INFO]: [LuckPerms] Goodbye!
+[15:20:40] [Server thread/INFO]: [PlaceholderAPI] Disabling PlaceholderAPI v2.11.6
+[15:20:40] [Server thread/INFO]: Saving players
+[15:20:40] [Server thread/INFO]: Saving worlds
+[15:20:40] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[15:20:40] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world'
+[15:20:40] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world'
+[15:20:40] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Saved 1805 block chunks, 675 entity chunks, 1 poi chunks in world 'world' in 0,92s
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world'
+[15:20:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_nether'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_nether'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_nether'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_nether' in 0,03s
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_nether'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_nether'
+[15:20:41] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk system to halt for world 'world_the_end'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Halted chunk system for world 'world_the_end'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Saving all chunkholders for world 'world_the_end'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Saved 49 block chunks, 49 entity chunks, 0 poi chunks in world 'world_the_end' in 0,03s
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Waiting 60s for chunk I/O to halt for world 'world_the_end'
+[15:20:41] [Server thread/INFO]: [ChunkHolderManager] Halted I/O scheduler for world 'world_the_end'
+[15:20:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[15:20:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[15:20:41] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[15:20:41] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:20:41] [Server thread/INFO]: Waiting for all RegionFile I/O tasks to complete...
+[15:20:41] [Server thread/INFO]: All RegionFile I/O tasks to complete
+[15:20:41] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of worker pool for up to 60s...
+[15:20:41] [Server thread/INFO]: [MoonriseCommon] Awaiting termination of I/O pool for up to 60s...

@@ -1,0 +1,354 @@
+no-permission-message: You do not have the required permission (<permission>) to run
+  this command.
+plugins-command: Hah! Nice try...
+command-timeout: You cannot use this command for another <time> Seconds
+player-offline: Player does not exist!
+target-offline: Target is offline
+all-offline: There are no players online
+console-invalid: You cannot execute this command in Console
+invalid-player: You are not a player
+incorrect-format: Incorrect format! Please use &6<command>
+target-self: You cannot target yourself.
+first-time-join: Welcome <player> to the Server!
+join-symbol: '&6[&a+&6] &f<player>'
+leave-symbol: '&6[&c-&6] &f<player>'
+staff-join-message: '&d(&5&lStaff&d) <player> &7has joined the game'
+staff-leave-message: '&d(&5&lStaff&d) <player> &7has quit the game'
+website-command: Website Command
+discord-command: Discord Command
+youtube-command: YouTube Command
+twitch-command: Twitch Command
+gui-confirm-name: '&aYes'
+gui-deny-name: '&cNo'
+afk-active: You are now AFK
+afk-inactive: You are no longer AFK
+back-previous-location: Teleported to previous location
+back-no-location: You have no location to return to
+back-blacklisted-world: Cannot use Back Command in a Blacklisted World
+back-movement-cancel: Teleportation to previous location cancelled due to Movement
+back-wait-message: Teleporting to previous location in <time> Seconds
+clear-chat: |-
+  &6|-------------------+====+-------------------|
+  &cThe chat has been cleared by a staff member.
+  &6|-------------------+====+-------------------|
+clear-success: Inventory cleared
+clear-target-success: <target>(s) inventory has been cleared
+clear-entity: '&cCleared <amount> entities!'
+pay-toggle-enabled: Players can no longer pay you
+pay-toggle-disabled: Players can now pay you
+pay-disabled: That player has paying disabled
+hidebalance-toggle-enabled: Players can no longer see your balance
+hidebalance-toggle-disabled: Players can now see your balance
+hidebalance-view: That player's balance cannot be viewed
+eco-receive: '&aYou have received &e<amount> &afrom &b<player>. &aYou now have: &e<balance>'
+eco-insufficient: '&cYou do not have enough money to send.'
+eco-invalid: '&cAmount is &60 or less.'
+eco-balance: '&aBalance: &e<balance>'
+eco-balance-target: '&b<player>''s &aBalance: &e<balance>'
+eco-pay: '&aPaid &b<player> &e<amount>. &aThey now have: &e<balance>'
+eco-baltop: '&6---- Top Balances ----'
+eco-baltop-empty: '&6No player balances can be found.'
+eco-baltop-player: '&e<number>. <player>: &a<balance>'
+eco-give: '&aDeposited &e<amount> &ainto &b<player>''s &abalance. New Balance: &e<balance>'
+eco-give-all: '&aDeposited &e<amount> &ainto &beveryone''s &abalance.'
+eco-take: '&aTaken &e<amount> &afrom &b<player>''s &abalance. New Balance: &e<balance>'
+eco-take-all: '&aTaken &e<amount> &afrom &beveryone''s &abalance.'
+eco-take-target: '&b<player> &ahas taken &e<amount>. New Balance: &e<balance>'
+eco-set: '&aSet &b<player>''s &abalance to &e<balance>'
+eco-set-all: '&aSet &beveryone''s &abalance to &e<balance>'
+eco-set-target: '&aYour balance has been set to &e<balance> &aby &b<player>'
+eco-reset: '&aReset &b<player>''s &abalance to &e<balance>'
+eco-reset-all: '&aReset everyone''s &abalance to &e<balance>'
+eco-reset-target: '&aYour balance has been reset by &b<player> &ato &e<balance>'
+enderchest-target-is-sender: Do /ec to access your own Enderchest
+enderchest-open-success: Opened <target>(s) Enderchest
+freeze-target: <player> has been frozen
+unfreeze-target: <player> has been unfrozen
+freeze-message: You cannot move as you are frozen
+feed-sender-message: You have fed <target>
+feed-target-message: You have been fed by <sender>
+feed-self: You have fed yourself
+fly-enabled: Flying enabled
+fly-disabled: Flying disabled
+fly-target-enabled: <target> can now fly
+fly-target-disabled: <target> can no longer fly
+fly-blacklisted-world: Cannot use Fly Command in a Blacklisted World
+fire-success-self: '&6You have set yourself on fire for &c<time> seconds'
+fire-success-target: '&6You have set &c<target> &6on fire for &c<time> seconds'
+fire-receive-target: '&6You have been set on fire by &c<player> &6for &c<time> seconds'
+gamemode-creative-self: You are now in Creative
+gamemode-creative-target: Set <target> into Creative
+gamemode-survival-self: You are now in Survival
+gamemode-survival-target: Set <target> into Survival
+gamemode-spectator-self: You are now in Spectator
+gamemode-spectator-target: Set <target> into Spectator
+gamemode-adventure-self: You are now in Adventure
+gamemode-adventure-target: Set <target> into Adventure
+god-enabled: Godmode Enabled
+god-disabled: Godmode Disabled
+god-enabled-target: Godmode Enabled for <target>
+god-disabled-target: Godmode Disabled for <target>
+god-target-is-sender: Use /god to set yourself into Godmode
+hat-success: You are now wearing <hat>
+hat-invalid: You can't wear that!
+heal-self: You have healed yourself
+heal-target: You have healed <target>
+heal-target-message: You have been healed by <sender>
+home-deletion-success: Home <home> has been successfully deleted
+target-home-deletion-success: <target>(s) Home has been successfully deleted
+home-set-success: Successfully set home location
+home-blacklisted-world: You cannot set a Home in a Blacklisted World
+home-world-invalid: World isn't loaded!
+home-max-homes: 'You cannot set any more homes (Max Homes: <max>)'
+home-subtitle: Successfully teleported to <home>
+home-message: Successfully teleported to <home>
+home-wait-message: Teleporting to <home> in <time> Seconds
+target-home-wait-message: Teleporting to <target>(s) Home in <time> Seconds
+home-invalid: Home &6<home> &fdoesn't exist or is invalid
+home-file-error: home.yml file is empty or null
+home-gui-name: Home GUI
+target-home-gui-name: <target>(s) Home List
+delete-home-gui-name: Delete Home &6<home>?
+target-delete-home-gui-name: Delete <target>(s) Home &6<home>?
+home-gui-left-click: Click to teleport to <home>
+home-gui-right-click: Right Click to Delete Home
+no-homes-set: No Homes have been set
+no-homes-set-target: <target> hasn't set any Homes
+home-gui-error: GUI Size is too small, increase the value in Config!
+home-teleport-target: You have teleported to <target>(s) home
+home-movement-cancel: Teleportation to Home cancelled due to Movement
+listhomes-self: To check your Homes, type /home
+sendhome-target: You have been teleported to your home
+sendhome-player: Teleported <target> to their home
+hurt-target: <target> was hurt for <damage> damage points
+hurt-invalid-number: <damage> is not a valid number
+invsee-target-is-sender: You cannot open your own inventory
+invsee-armor-gui: Equipped Armor
+kill-self: You just killed yourself
+kill-target: You just killed <target>
+list-message: '&6There are &c<amount> &6out of maximum &c<total> &6players online.'
+lore-invalid-item: Please hold a valid item to set the lore
+lore-reset-invalid-item: Please hold a valid item to reset the lore
+lore-successful: Successfully set item lore as <lore>
+lore-reset-successful: Successfully reset item lore
+mute-sender: '&7You just &cmuted &e<target>'
+mute-target: '&7You just got &cmuted &7by &e<target>'
+mute-bypass: '&7This player cannot be muted.'
+unmute-sender: '&7You just &aunmuted &e<target>'
+unmute-target: '&7You just got &aunmuted &7by &e<target>'
+mute-message: '&7You cannot speak since you are &cmuted'
+message-self: You cannot message yourself
+message-disabled: That person has messaging disabled
+message-toggle-enabled: Incoming Messages have been Disabled
+message-toggle-disabled: Incoming Messages have been Enabled
+message-sender: '&eme &6>> &f<target> &7: <message>'
+message-recipient: '&f<sender> &6>> &eme &7: <message>'
+message-recipient-console: '&fConsole &6>> &eme &7: <message>'
+reply-sender: '&eme &6>> &f<target> &7: <message>'
+reply-recipient: '&f<sender> &6>> &eme &7: <message>'
+reply-no-message: There is no message to reply to
+near-message: '&6Players nearby:'
+near-invalid: '&6No players found within &e<range> blocks:'
+playtime-self: You have played for <days> Days <hours> Hours <minutes> Minutes <seconds>
+  Seconds
+playtime-target: <target> has played for <days> Days <hours> Hours <minutes> Minutes
+  <seconds> Seconds
+rename-invalid-item: Please hold a valid item to rename
+rename-reset-invalid-item: Please hold a valid item to clear the name
+rename-successful: Successfully set item name as <name>
+rename-reset-successful: Successfully reset item name
+repair-durability-max: Durability is max
+repair-successful: <item> has been repaired
+repair-invalid-item: You cannot repair that item
+repair-all-items: Repaired all item(s)
+report-self: You cannot report yourself
+report-successful: Report sent successfully
+report-user-message: |-
+  &b--------- &cNEW REPORT &b---------
+  &cReporter &7>> &f<player>
+  &cReported User &7>> &f<target>
+  &cReason &7>> &f<message>
+  &b-----------------------------
+report-bug-message: |-
+  &b--------- &cBUG REPORT &b---------
+  &cReporter &7>> &f<player>
+  &cBug &7>> &f<message>
+  &b-----------------------------
+newbies-spawn-deletion-success: Newbie Spawn Deleted
+spawn-deletion-success: Spawn Deleted
+spawn-not-found: Spawn doesn't exist
+spawn-world-invalid: World isn't loaded!
+newbies-spawn-set-successful: Successfully set newbie spawn location in <world>
+spawn-set-successful: Successfully set spawn location in <world>
+newbies-spawn-successful: Successfully teleported to Newbies Spawn
+spawn-successful: Successfully teleported to Spawn
+newbies-spawn-wait-message: Teleporting to Newbies Spawn in <time> Seconds
+spawn-wait-message: Teleporting to Spawn in <time> Seconds
+newbies-spawn-teleport-target: You have teleported <target> to Newbies Spawn
+newbies-spawn-teleport-target-success: You have been teleported to Newbies Spawn
+spawn-teleport-target: You have teleported <target> to Spawn
+spawn-teleport-target-success: You have been teleported to Spawn
+newbies-spawn-invalid: Newbies Spawn hasn't been set
+spawn-invalid: Spawn hasn't been set
+spawn-movement-cancel: Teleportation to Spawn cancelled due to Movement
+warp-deletion-success: Warp <warp> has been successfully deleted
+warp-not-found: Warp <warp> doesn't exist
+warp-set-successful: Successfully set Warp location
+warp-set-block-successful: Successfully set <warp> Warp to <block>
+warp-block-invalid: You cannot set Warp Block as <item>
+warp-blacklisted-world: You cannot set a Warp in a Blacklisted World
+warp-world-invalid: World isn't loaded!
+warp-subtitle: Warped to <warp>
+warp-message: Successfully warped to <warp>
+warp-wait-message: Warping to <warp> in <time> Seconds
+warp-gui-name: Warp GUI
+delete-warp-gui-name: Delete Warp &6<warp>?
+warp-gui-left-click: Click to teleport to <warp>
+warp-gui-right-click: Right click to Delete Warp
+warp-gui-invalid: GUI Size is too small, increase the value in Config
+warp-file-error: warp.yml file is empty or null
+warp-movement-cancel: Warping cancelled due to Movement
+no-warps-set: No Warps have been set
+sendwarp-target: Successfully warped to <warp>
+sendwarp-player: Successfully sent <target> to <warp>
+silentjoin-enabled: SilentJoin has been Enabled
+silentjoin-disabled: SilentJoin has been Disabled
+socialspy-enabled: SocialSpy has been Enabled
+socialspy-disabled: SocialSpy has been Disabled
+socialspy-message: '&c[SocialSpy] &f<sender> &6>> &f<target> &7: <message>'
+jump-message: '&6You have been teleported to the block you''re looking at!'
+jump-error-message: '&6No block in sight or too far away!'
+jumpboost-message: '&6Bounce like a Bunny!'
+jumpboost-remove-message: '&6You can &cno longer &6Bounce like a Bunny'
+thor-message: '&6You have been &cstruck &6by lightning'
+thor-location: '&6Striked lightning at location'
+thor-invalid: '&6Location is too far away'
+speed-invalid-number: Please provide a speed from 1-10
+speed-fly-success: Flying speed is now <speed>
+speed-walk-success: Walking speed is now <speed>
+speed-reset-success: Fly and Walk Speed is now reset
+speed-reset-fly-success: Fly Speed is now reset
+speed-reset-walk-success: Walk Speed is now reset
+speed-fly-success-target: Set flying speed to <speed> for <target>
+speed-walk-success-target: Set walking speed to <speed> for <target>
+speed-reset-success-target: Successfully reset Fly and Walk Speed for <target>
+staffchat-enabled: StaffChat has been Enabled
+staffchat-disabled: StaffChat has been Disabled
+staffchat-message: '&d(&5&lStaff&d) <player>: &7<message>'
+staffchat-discord-message: '&b&lDiscord &f» &d(&5&lStaff&d) <player>&7: &f<message>'
+teleport-self: '&7You &ccannot &7teleport to yourself'
+teleport-success: '&7Teleported to &e<target>'
+teleport-target-success: '&e<sender> &7has teleported to &eyou'
+teleport-target-offline-success: '&7Teleported to &e<target>''s Logout Location'
+teleport-target-to-self: '&7You &ccannot &7teleport someone to themself'
+teleport-others: '&7Teleported &e<target> &7to &e<target2>'
+teleport-force-target: '&7You have been teleported to &e<target>'
+teleport-no-players-online: '&7Teleport Failed: &cNo other players are online right
+  now'
+teleport-all-message: '&7Teleported &e<amount> player(s) &7to you'
+teleport-pos-success: '&7Teleported to &echosen coordinates'
+teleport-pos-invalid: '&cTeleport Failed: &cPlease enter valid coordinates.'
+teleport-pos-target-success: '&7You have been teleported'
+teleport-pos-target-message: '&7Teleported &e<target> &7to &echosen coordinates'
+teleport-request-blacklisted-world: '&7Target is in a &cBlacklisted World'
+teleport-request-sent: '&7You sent a teleport request to &e<target>'
+teleport-request-cancel-warning: '&7To cancel this request, type &e/tpacancel'
+teleport-request-cancel-button: '&e&l&n[Cancel]&r'
+teleport-request-target-receive: '&e<sender> &7sent a teleport request to you'
+teleport-request-accept: '&7To &aaccept&7, type &a/tpaccept'
+teleport-request-deny: '&7To &cdeny&7, type &c/tpdeny'
+teleport-request-accept-button: '&a&l&n[Accept]&r'
+teleport-request-deny-button: '&c&l&n[Deny]&r'
+teleport-request-timeout-warning: '&7This request will timeout in &e<time> Seconds'
+teleport-request-timeout: '&e<target>''s &7Teleport Request has &ctimed out.'
+teleport-request-sender-timeout: '&7Your teleport request to &e<target>&7 has &ctimed
+  out.'
+teleport-request-cancelled-by-sender: '&7Pending teleport request from &e<target>&7
+  was &ccancelled &7by them.'
+teleport-request-already-sent: '&7You already have a &epending &7teleport request
+  to &e<target>&7.'
+teleport-failed-offline: '&7Teleportation failed: &cOne of the players went offline.'
+teleport-disabled: '&7That player has teleporting &cdisabled'
+teleport-here-blacklisted-world: '&7Cannot send Teleport Here Request because you
+  are in a &cBlacklisted World'
+teleport-here-request-sent: '&7You sent a teleport here request to &e<target>'
+teleport-here-request-cancel-warning: '&7To cancel this request, type &c/tpacancel'
+teleport-here-request-cancel-button: '&e&l&n[Cancel]&r'
+teleport-here-request-target-receive: '&e<sender> &7would like you to teleport to
+  them'
+teleport-here-request-accept: '&7To accept, type &a/tpaccept'
+teleport-here-request-deny: '&7To deny, type &c/tpdeny'
+teleport-here-request-accept-button: '&a&l&n[Accept]&r'
+teleport-here-request-deny-button: '&c&l&n[Deny]&r'
+teleport-here-request-timeout-warning: '&7This request will timeout in &e<time> Seconds'
+teleport-here-request-timeout: '&7Teleport here request &etimed out'
+teleport-cancel: '&7You have &ccancelled &7all outgoing Teleport Requests'
+teleport-no-request: '&7There''s no request to &ccancel'
+teleport-no-request-accept: '&7There''s no request to &aaccept'
+teleport-no-request-deny: '&7There''s no request to &cdeny'
+teleport-accept-request: '&e<sender> &7has &aaccepted &7the teleport request'
+teleport-deny-request: '&e<sender> &7has &cdenied &7the teleport request'
+teleport-accept-request-target: '&7Successfully &aaccepted &e<target>(s) &7Teleport
+  Request'
+teleport-deny-request-target: '&7Successfully &cdenied &e<target>(s) &7Teleport Request'
+teleport-wait-message: '&7Teleporting to &e<player> &7in &e<time> Seconds'
+teleport-toggle-enabled: '&7Teleport Requests have been &cDisabled'
+teleport-toggle-disabled: '&7Teleport Requests have been &aEnabled'
+teleport-movement-cancel: '&7Teleportation &ccancelled &7due to Movement'
+time-message: '&6Current Time in &c<world> &6is: &c<24time> &6or &c<12time> &6or &c<time>
+  ticks'
+time-set: '&6Time set to &c<time> ticks &6in: &c<world>'
+time-sunrise: '&6Time set to &cSunrise &6in: &c<world>'
+time-day: '&6Time set to &cDay &6in: &c<world>'
+time-sunset: '&6Time set to &cSunset &6in: &c<world>'
+time-night: '&6Time set to &cNight &6in: &c<world>'
+time-midnight: '&6Time set to &cMidnight &6in: &c<world>'
+weather-sun: '&6Weather set to &cSun &6in: &c<world>'
+weather-storm: '&6Weather set to &cStorm &6in: &c<world>'
+weather-thunder: '&6Weather set to &cThunder &6in: &c<world>'
+weather-rain: '&6Weather set to &cRain &6in: &c<world>'
+trash-gui-name: Trash Chute
+top-successful: Teleported to the highest block
+top-unsuccessful: You are already at the highest block
+top-invalid: No valid top block found
+bottom-successful: Teleported to the lowest block
+bottom-unsuccessful: You are already at the lowest block
+bottom-invalid: No valid bottom block found
+vanish-enabled: You are now invisible!
+vanish-disabled: You are now visible to other players on the server
+vanish-target-enabled: <target> is now invisible
+vanish-target-disabled: <target> is now visible
+convert-successful: Successfully converted <amount> <item> into <total> <block>
+convert-unsuccessful: You do not have enough <item> to convert
+convert-invalid: You cannot convert <item>
+seen-online: |-
+  &6Player &e<player> &6has been &aonline &6for &c<time>.
+  &6- UUID: &f<uuid>
+seen-offline: |-
+  &6Player &e<player> &6was last seen &c<time> &6ago.
+  &6- UUID: &f<uuid>
+seen-invalid: '&6Player &e<player> &6has no available data.'
+sudo-successful: Successfully ran command <command> for <target>
+sudo-command-invalid: Command <command> doesn't exist.
+spawner-successful: You received a &6<mob> Spawner
+spawner-invalid: 'Invalid mob type! Examples: zombie, skeleton, creeper.'
+ping-self: 'Ping: <ping>'
+ping-target: '<target>''s Ping: <ping>'
+placeholder_afk_isenabled_yes: 'yes'
+placeholder_afk_isenabled_no: 'no'
+placeholder_freeze_isenabled_yes: 'yes'
+placeholder_freeze_isenabled_no: 'no'
+placeholder_godmode_isenabled_yes: 'yes'
+placeholder_godmode_isenabled_no: 'no'
+placeholder_vanish_isenabled_yes: 'yes'
+placeholder_vanish_isenabled_no: 'no'
+placeholder_mute_isenabled_yes: 'yes'
+placeholder_mute_isenabled_no: 'no'
+placeholder_fly_isenabled_yes: 'yes'
+placeholder_fly_isenabled_no: 'no'
+placeholder_msgtoggle_isenabled_yes: 'yes'
+placeholder_msgtoggle_isenabled_no: 'no'
+placeholder_tptoggle_isenabled_yes: 'yes'
+placeholder_tptoggle_isenabled_no: 'no'
+world-success: '&6Teleported to World &c<world>'
+world-invalid: '&6World &c<world> &6isn''t loaded!'

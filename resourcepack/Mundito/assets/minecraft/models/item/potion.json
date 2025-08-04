@@ -1,0 +1,19 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/potion_overlay",
+        "layer1": "item/potion"
+    },
+  "overrides": [
+    {"predicate": {"custom_model_data": 100},"model": "minecraft:item/aguardiente"},
+    {"predicate": {"custom_model_data": 101},"model": "minecraft:item/cerveza"},
+    {"predicate": {"custom_model_data": 102},"model": "minecraft:item/cubalibre"},
+    {"predicate": {"custom_model_data": 103},"model": "minecraft:item/vino"},
+    {"predicate": {"custom_model_data": 104},"model": "minecraft:item/vodka"},
+    {"predicate": {"custom_model_data": 105},"model": "minecraft:block/cofee_cup"},
+    {"predicate": {"custom_model_data": 106},"model": "minecraft:block/slush_verde"},
+    {"predicate": {"custom_model_data": 107},"model": "minecraft:block/slush_rojo"},
+    {"predicate": {"custom_model_data": 108},"model": "minecraft:block/slush_morado"},
+    {"predicate": {"custom_model_data": 109},"model": "minecraft:block/slush_amarillo"}
+  ]
+}

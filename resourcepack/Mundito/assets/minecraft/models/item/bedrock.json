@@ -1,0 +1,7 @@
+{
+    "parent": "block/bedrock",
+    "overrides": [
+    {"predicate": {"custom_model_data": 100},"model": "sables:item/kyber_azul"},
+    {"predicate": {"custom_model_data": 101},"model": "sables:item/kyber_inactivo"}
+    ]
+}

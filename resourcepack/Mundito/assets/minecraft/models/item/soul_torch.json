@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "block/soul_torch"
+    },
+    "overrides": [
+    {"predicate": {"custom_model_data": 101},"model": "sables:item/sable_normal_azul"},
+    {"predicate": {"custom_model_data": 102},"model": "sables:item/sable_doble_azul"}
+
+    ]
+}

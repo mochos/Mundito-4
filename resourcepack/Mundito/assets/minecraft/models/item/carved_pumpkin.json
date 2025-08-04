@@ -1,0 +1,19 @@
+{
+ "parent": "block/cube_column",
+  "textures": {
+    "particle": "block/pumpkin_side",
+    "down": "block/pumpkin_top",
+    "up": "block/pumpkin_top",
+    "north": "block/carved_pumpkin",
+    "south": "block/carved_pumpkin",
+    "west": "block/pumpkin_side",
+    "east": "block/pumpkin_side"
+  },
+ 
+ "overrides": [
+  {"predicate": {"custom_model_data":101}, "model": "block/torta"},
+  {"predicate": {"custom_model_data":102}, "model": "block/torta_v2"},
+  {"predicate": {"custom_model_data":103}, "model": "block/arceus_hat"},
+  {"predicate": {"custom_model_data":108}, "model": "block/cajero"}
+ ]
+}

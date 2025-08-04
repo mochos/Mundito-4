@@ -1,0 +1,710 @@
+{
+	"credit": "Made with Blockbench",
+	"texture_size": [128, 64],
+	"textures": {
+		"0": "item/aegislash_escudo"
+	},
+	"elements": [
+		{
+			"name": "shield",
+			"from": [1.5, 0, 6.475],
+			"to": [14.5, 17, 9.475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [3.75, 3.25, 1.625, 0], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [1.625, 3.25, 3.75, 4], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.875, 0, 3.75, 3.25], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [5.375, 3.25, 7.5, 4], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 3.25, 1.625, 4], "texture": "#0"},
+				"down": {"uv": [3.75, 3.25, 5.375, 4], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "shield",
+			"from": [2.5, 4, 4.975],
+			"to": [7.5, 9, 6.975],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [12.875, 8.5, 12.25, 7.25], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [12.25, 8.5, 12.875, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [13.5, 7.25, 12.875, 8.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [13.5, 8.5, 14.125, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11.625, 8.5, 12.25, 9], "texture": "#0"},
+				"down": {"uv": [12.875, 8.5, 13.5, 9], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "shield",
+			"from": [8.5, 4, 4.975],
+			"to": [13.5, 9, 6.975],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [7.125, 1.25, 6.5, 0], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [6.5, 1.25, 7.125, 1.75], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7.75, 0, 7.125, 1.25], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [7.75, 1.25, 8.375, 1.75], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [5.875, 1.25, 6.5, 1.75], "texture": "#0"},
+				"down": {"uv": [7.125, 1.25, 7.75, 1.75], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "shield",
+			"from": [5.5, 9, 4.975],
+			"to": [10.5, 14, 6.975],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [1.25, 12.25, 0.625, 11], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [0.625, 12.25, 1.25, 12.75], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [1.875, 11, 1.25, 12.25], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [1.875, 12.25, 2.5, 12.75], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 12.25, 0.625, 12.75], "texture": "#0"},
+				"down": {"uv": [1.25, 12.25, 1.875, 12.75], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "shield",
+			"from": [-0.5, 2, 6.475],
+			"to": [1.5, 15, 9.475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [1.875, 6.75, 0.25, 6.25], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [0.25, 6.75, 1.875, 7.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [3.5, 6.25, 1.875, 6.75], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [2.125, 6.75, 3.75, 7.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 6.75, 0.25, 7.5], "texture": "#0"},
+				"down": {"uv": [1.875, 6.75, 2.125, 7.5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "shield",
+			"from": [14.5, 2, 6.475],
+			"to": [16.5, 15, 9.475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [5.375, 7.5, 3.75, 7], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [3.75, 7.5, 5.375, 8.25], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [7, 7, 5.375, 7.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [5.625, 7.5, 7.25, 8.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3.5, 7.5, 3.75, 8.25], "texture": "#0"},
+				"down": {"uv": [5.375, 7.5, 5.625, 8.25], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle_left",
+			"from": [0, 6, 9.475],
+			"to": [0, 10, 11.475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [8.75, 8.5, 8.25, 8.5], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8.25, 8.5, 8.75, 9], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.25, 8.5, 8.75, 8.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [8.75, 8.5, 9.25, 9], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.25, 8.5, 8.25, 9], "texture": "#0"},
+				"down": {"uv": [8.75, 8.5, 8.75, 9], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle_left2",
+			"from": [0, 6, 11.475],
+			"to": [8, 10, 11.475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [1.5, 11, 1, 9], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [1, 11, 1.5, 11], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [2, 9, 1.5, 11], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [2.5, 11, 3, 11], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [0, 11, 1, 11], "texture": "#0"},
+				"down": {"uv": [1.5, 11, 2.5, 11], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle_right",
+			"from": [16, 6, 9.475],
+			"to": [16, 10, 11.475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [8.75, 4.75, 8.25, 4.75], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8.25, 4.75, 8.75, 5.25], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9.25, 4.75, 8.75, 4.75], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [8.75, 4.75, 9.25, 5.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.25, 4.75, 8.25, 5.25], "texture": "#0"},
+				"down": {"uv": [8.75, 4.75, 8.75, 5.25], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "handle_right2",
+			"from": [8, 6, 11.475],
+			"to": [16, 10, 11.475],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [5, 10.25, 4.5, 8.25], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [4.5, 10.25, 5, 10.25], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [5.5, 8.25, 5, 10.25], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [6, 10.25, 6.5, 10.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [3.5, 10.25, 4.5, 10.25], "texture": "#0"},
+				"down": {"uv": [5, 10.25, 6, 10.25], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "face",
+			"from": [10, 5.5, 4.965],
+			"to": [12, 7.5, 5.965],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [8.75, 6.75, 8.5, 6.25], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8.5, 6.75, 8.75, 7], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 6.25, 8.75, 6.75], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [9, 6.75, 9.25, 7], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.25, 6.75, 8.5, 7], "texture": "#0"},
+				"down": {"uv": [8.75, 6.75, 9, 7], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "face",
+			"from": [7, 10.5, 4.965],
+			"to": [9, 12.5, 5.965],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [8.75, 7.5, 8.5, 7], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8.5, 7.5, 8.75, 7.75], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 7, 8.75, 7.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [9, 7.5, 9.25, 7.75], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.25, 7.5, 8.5, 7.75], "texture": "#0"},
+				"down": {"uv": [8.75, 7.5, 9, 7.75], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "face",
+			"from": [4, 5.5, 4.965],
+			"to": [6, 7.5, 5.965],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [8.75, 8.25, 8.5, 7.75], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8.5, 8.25, 8.75, 8.5], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [9, 7.75, 8.75, 8.25], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [9, 8.25, 9.25, 8.5], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [8.25, 8.25, 8.5, 8.5], "texture": "#0"},
+				"down": {"uv": [8.75, 8.25, 9, 8.5], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "facelid",
+			"from": [9.99, 5.49, 5.055],
+			"to": [12.01, 7.51, 7.075],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [12.625, 12.25, 12.375, 11.75], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [12.375, 12.25, 12.625, 12.75], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [12.875, 11.75, 12.625, 12.25], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [12.875, 12.25, 13.125, 12.75], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [12.125, 12.25, 12.375, 12.75], "texture": "#0"},
+				"down": {"uv": [12.625, 12.25, 12.875, 12.75], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "facelid",
+			"from": [6.99, 10.49, 5.055],
+			"to": [9.01, 12.51, 7.075],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [8.25, 5.75, 8, 5.25], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8, 5.75, 8.25, 6.25], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 5.25, 8.25, 5.75], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [8.5, 5.75, 8.75, 6.25], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7.75, 5.75, 8, 6.25], "texture": "#0"},
+				"down": {"uv": [8.25, 5.75, 8.5, 6.25], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"name": "facelid",
+			"from": [3.99, 5.49, 5.055],
+			"to": [6.01, 7.51, 7.075],
+			"rotation": {"angle": 0, "axis": "y", "origin": [0, 18, 8]},
+			"faces": {
+				"north": {"uv": [8.25, 0.5, 8, 0], "rotation": 270, "texture": "#0"},
+				"east": {"uv": [8, 0.5, 8.25, 1], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [8.5, 0, 8.25, 0.5], "rotation": 270, "texture": "#0"},
+				"west": {"uv": [8.5, 0.5, 8.75, 1], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [7.75, 0.5, 8, 1], "texture": "#0"},
+				"down": {"uv": [8.25, 0.5, 8.5, 1], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [59, 0, 0],
+			"translation": [0, 2.25, 0]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [59, 0, 0],
+			"translation": [0, 2.25, 0]
+		},
+		"firstperson_righthand": {
+			"translation": [3.5, -5, 0]
+		},
+		"firstperson_lefthand": {
+			"translation": [3.5, -5, 0]
+		},
+		"ground": {
+			"translation": [0, 5.25, 0],
+			"scale": [0.72, 0.72, 0.72]
+		},
+		"gui": {
+			"rotation": [-40, 140, 0],
+			"translation": [0.25, -0.25, 0],
+			"scale": [0.74, 0.74, 0.74]
+		},
+		"head": {
+			"rotation": [90, 0, 0],
+			"translation": [0, 5.75, -0.5],
+			"scale": [1.6, 1.6, 1.6]
+		},
+		"fixed": {
+			"translation": [0, -0.75, -2.75],
+			"scale": [1.85, 1.85, 1.85]
+		}
+	},
+	"groups": [
+		{
+			"name": "aegislash",
+			"origin": [8, 0, 8],
+			"color": 0,
+			"children": [
+				{
+					"name": "body",
+					"origin": [8, 16.25, 8],
+					"color": 1,
+					"children": [
+						{
+							"name": "eye",
+							"origin": [8, 12, 6.75],
+							"color": 2,
+							"children": [
+								{
+									"name": "eyelid",
+									"origin": [8, 12, 6.7625],
+									"color": 3,
+									"children": []
+								},
+								{
+									"name": "eye2",
+									"origin": [8, 12, 6.745],
+									"color": 4,
+									"children": []
+								}
+							]
+						},
+						{
+							"name": "blade",
+							"origin": [8, 13.125, 8.25],
+							"color": 5,
+							"children": []
+						},
+						{
+							"name": "shield_shoulder",
+							"origin": [4.75, 13.75, 8],
+							"color": 6,
+							"children": [
+								{
+									"name": "shield_arm",
+									"origin": [4.75, 13.75, 8],
+									"color": 7,
+									"children": [
+										{
+											"name": "shield_arm2",
+											"origin": [3.75, 13.75, 8],
+											"color": 8,
+											"children": [
+												{
+													"name": "shield_arm3",
+													"origin": [2.25, 13.75, 8],
+													"color": 9,
+													"children": [
+														{
+															"name": "shield_arm4",
+															"origin": [0.75, 13.75, 8],
+															"color": 0,
+															"children": [
+																{
+																	"name": "shield_arm5",
+																	"origin": [-0.75, 13.75, 8],
+																	"color": 1,
+																	"children": [
+																		{
+																			"name": "shield_arm6",
+																			"origin": [-2.75, 13.75, 8],
+																			"color": 2,
+																			"children": [
+																				{
+																					"name": "shield_arm7",
+																					"origin": [-5.75, 13.75, 8],
+																					"color": 3,
+																					"children": [
+																						{
+																							"name": "shield_hand",
+																							"origin": [-9.25, 13.75, 8],
+																							"color": 4,
+																							"children": [
+																								{
+																									"name": "shield",
+																									"origin": [-12, 14.5125, 8],
+																									"color": 5,
+																									"children": [
+																										0,
+																										1,
+																										2,
+																										3,
+																										4,
+																										5,
+																										{
+																											"name": "handle_left",
+																											"origin": [-12, 13.7625, 12],
+																											"color": 6,
+																											"children": [
+																												6,
+																												{
+																													"name": "handle_left2",
+																													"origin": [-12, 12.7625, 12],
+																													"color": 7,
+																													"children": [7]
+																												}
+																											]
+																										},
+																										{
+																											"name": "handle_right",
+																											"origin": [-12, 13.7625, 4],
+																											"color": 8,
+																											"children": [
+																												8,
+																												{
+																													"name": "handle_right2",
+																													"origin": [-12, 12.7625, 4],
+																													"color": 9,
+																													"children": [9]
+																												}
+																											]
+																										},
+																										{
+																											"name": "face",
+																											"origin": [-12.5, 15.5125, 10.25],
+																											"color": 0,
+																											"children": [10, 11, 12]
+																										},
+																										{
+																											"name": "facelid",
+																											"origin": [-12.5, 15.4125, 10.25],
+																											"color": 1,
+																											"children": [13, 14, 15]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "shoulder_left",
+							"origin": [4.75, 13.75, 8],
+							"color": 2,
+							"children": [
+								{
+									"name": "arm_left",
+									"origin": [4.75, 13.75, 8],
+									"color": 3,
+									"children": [
+										{
+											"name": "arm_left2",
+											"origin": [3.75, 13.75, 8],
+											"color": 4,
+											"children": [
+												{
+													"name": "arm_left3",
+													"origin": [2.25, 13.75, 8],
+													"color": 5,
+													"children": [
+														{
+															"name": "arm_left4",
+															"origin": [0.75, 13.75, 8],
+															"color": 6,
+															"children": [
+																{
+																	"name": "arm_left5",
+																	"origin": [-0.75, 13.75, 8],
+																	"color": 7,
+																	"children": [
+																		{
+																			"name": "arm_left6",
+																			"origin": [-2.75, 13.75, 8],
+																			"color": 8,
+																			"children": [
+																				{
+																					"name": "arm_left7",
+																					"origin": [-5.75, 13.75, 8],
+																					"color": 9,
+																					"children": [
+																						{
+																							"name": "hand_left",
+																							"origin": [-9.25, 13.75, 8],
+																							"color": 0,
+																							"children": [
+																								{
+																									"name": "finger_left",
+																									"origin": [-13.25, 13.75, 9.5],
+																									"color": 1,
+																									"children": [
+																										{
+																											"name": "finger_left2",
+																											"origin": [-14.25, 13.75, 9.5],
+																											"color": 2,
+																											"children": [
+																												{
+																													"name": "finger_left3",
+																													"origin": [-15.75, 13.75, 9.5],
+																													"color": 3,
+																													"children": []
+																												}
+																											]
+																										}
+																									]
+																								},
+																								{
+																									"name": "finger_left4",
+																									"origin": [-13.25, 13.75, 8.5],
+																									"color": 4,
+																									"children": [
+																										{
+																											"name": "finger_left5",
+																											"origin": [-14.25, 13.75, 8.5],
+																											"color": 5,
+																											"children": [
+																												{
+																													"name": "finger_left6",
+																													"origin": [-15.75, 13.75, 8.5],
+																													"color": 6,
+																													"children": []
+																												}
+																											]
+																										}
+																									]
+																								},
+																								{
+																									"name": "finger_left7",
+																									"origin": [-13.25, 13.75, 7.5],
+																									"color": 7,
+																									"children": [
+																										{
+																											"name": "finger_left8",
+																											"origin": [-14.25, 13.75, 7.5],
+																											"color": 8,
+																											"children": [
+																												{
+																													"name": "finger_left9",
+																													"origin": [-15.75, 13.75, 7.5],
+																													"color": 9,
+																													"children": []
+																												}
+																											]
+																										}
+																									]
+																								},
+																								{
+																									"name": "finger_left10",
+																									"origin": [-13.25, 13.75, 6.5],
+																									"color": 0,
+																									"children": [
+																										{
+																											"name": "finger_left11",
+																											"origin": [-14.25, 13.75, 6.5],
+																											"color": 1,
+																											"children": [
+																												{
+																													"name": "finger_left12",
+																													"origin": [-15.75, 13.75, 6.5],
+																													"color": 2,
+																													"children": []
+																												}
+																											]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "shoulder_right",
+							"origin": [11.25, 13.75, 8],
+							"color": 3,
+							"children": [
+								{
+									"name": "arm_right",
+									"origin": [11.25, 13.75, 8],
+									"color": 4,
+									"children": [
+										{
+											"name": "arm_right2",
+											"origin": [12.25, 13.75, 8],
+											"color": 5,
+											"children": [
+												{
+													"name": "arm_right3",
+													"origin": [13.75, 13.75, 8],
+													"color": 6,
+													"children": [
+														{
+															"name": "arm_right4",
+															"origin": [15.25, 13.75, 8],
+															"color": 7,
+															"children": [
+																{
+																	"name": "arm_right5",
+																	"origin": [16.75, 13.75, 8],
+																	"color": 8,
+																	"children": [
+																		{
+																			"name": "arm_right6",
+																			"origin": [18.75, 13.75, 8],
+																			"color": 9,
+																			"children": [
+																				{
+																					"name": "arm_right7",
+																					"origin": [21.75, 13.75, 8],
+																					"color": 0,
+																					"children": [
+																						{
+																							"name": "hand_right",
+																							"origin": [25.25, 13.75, 8],
+																							"color": 1,
+																							"children": [
+																								{
+																									"name": "finger_right",
+																									"origin": [29.25, 13.75, 9.5],
+																									"color": 2,
+																									"children": [
+																										{
+																											"name": "finger_right2",
+																											"origin": [30.25, 13.75, 9.5],
+																											"color": 3,
+																											"children": [
+																												{
+																													"name": "finger_right3",
+																													"origin": [31.75, 13.75, 9.5],
+																													"color": 4,
+																													"children": []
+																												}
+																											]
+																										}
+																									]
+																								},
+																								{
+																									"name": "finger_right4",
+																									"origin": [29.25, 13.75, 8.5],
+																									"color": 5,
+																									"children": [
+																										{
+																											"name": "finger_right5",
+																											"origin": [30.25, 13.75, 8.5],
+																											"color": 6,
+																											"children": [
+																												{
+																													"name": "finger_right6",
+																													"origin": [31.75, 13.75, 8.5],
+																													"color": 7,
+																													"children": []
+																												}
+																											]
+																										}
+																									]
+																								},
+																								{
+																									"name": "finger_right7",
+																									"origin": [29.25, 13.75, 7.5],
+																									"color": 8,
+																									"children": [
+																										{
+																											"name": "finger_right8",
+																											"origin": [30.25, 13.75, 7.5],
+																											"color": 9,
+																											"children": [
+																												{
+																													"name": "finger_right9",
+																													"origin": [31.75, 13.75, 7.5],
+																													"color": 0,
+																													"children": []
+																												}
+																											]
+																										}
+																									]
+																								},
+																								{
+																									"name": "finger_right10",
+																									"origin": [29.25, 13.75, 6.5],
+																									"color": 1,
+																									"children": [
+																										{
+																											"name": "finger_right11",
+																											"origin": [30.25, 13.75, 6.5],
+																											"color": 2,
+																											"children": [
+																												{
+																													"name": "finger_right12",
+																													"origin": [31.75, 13.75, 6.5],
+																													"color": 3,
+																													"children": []
+																												}
+																											]
+																										}
+																									]
+																								}
+																							]
+																						}
+																					]
+																				}
+																			]
+																		}
+																	]
+																}
+															]
+														}
+													]
+												}
+											]
+										}
+									]
+								}
+							]
+						}
+					]
+				}
+			]
+		}
+	]
+}

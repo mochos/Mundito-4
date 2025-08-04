@@ -1,0 +1,11 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/cooked_chicken"
+    },
+    "overrides": [
+        {"predicate": {"custom_model_data": 100},"model": "minecraft:item/alita"},
+        {"predicate": {"custom_model_data": 101},"model": "lavachicken:item/lava_chicken"},
+        {"predicate": {"custom_model_data": 102},"model": "minecraft:block/taco/taco"}
+    ]
+}

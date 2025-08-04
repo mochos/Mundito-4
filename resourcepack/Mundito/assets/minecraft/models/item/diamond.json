@@ -1,0 +1,13 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "minecraft:item/diamond"
+  },
+  "overrides": [
+    {"predicate": {"custom_model_data": 100},"model": "minecraft:item/gemas/llama_blanca"},
+    {"predicate": {"custom_model_data": 101},"model": "minecraft:item/gemas/fragmento_yang"},
+    {"predicate": {"custom_model_data": 102},"model": "minecraft:item/gemas/llama_verde"},
+    {"predicate": {"custom_model_data": 103},"model": "minecraft:item/gemas/llama_negra"},
+    {"predicate": {"custom_model_data": 104},"model": "minecraft:item/gemas/llama_roja"}
+  ]
+}

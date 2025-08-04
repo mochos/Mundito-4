@@ -1,0 +1,14 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/stone_hoe"
+    },
+    "overrides": [
+    {"predicate": {"custom_model_data": 2001},"model": "sables:item/red_blaster"},
+    {"predicate": {"custom_model_data": 2002},"model": "sables:item/blue_blaster"},
+    {"predicate": {"custom_model_data": 2011},"model": "sables:item/red_tibanna"},
+    {"predicate": {"custom_model_data": 2012},"model": "sables:item/blue_tibanna"},
+    {"predicate": {"custom_model_data": 3000},"model": "lavachicken:item/potato_launcher"}
+
+    ]
+}

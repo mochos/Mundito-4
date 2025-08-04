@@ -1,0 +1,13 @@
+{
+    "parent": "item/generated",
+    "textures": {
+        "layer0": "item/rotten_flesh"
+    },
+  "overrides": [
+    {"predicate": {"custom_model_data": 100}, "model": "minecraft:block/huevo_generico"},
+    {"predicate": {"custom_model_data": 101}, "model": "minecraft:block/huevo_togepi"},
+    {"predicate": {"custom_model_data": 102}, "model": "minecraft:block/huevo_generico_listo"},
+    {"predicate": {"custom_model_data": 103}, "model": "minecraft:block/huevo_togepi_listo"},
+    {"predicate": {"custom_model_data": 200}, "model": "minecraft:item/essence"}
+  ]
+}

@@ -1,0 +1,12 @@
+{
+    "parent": "item/handheld",
+    "textures": {
+        "layer0": "item/iron_sword"
+    },
+  "overrides": [
+    {"predicate": {"custom_model_data": 100},"model": "minecraft:item/porra"},
+    {"predicate": {"custom_model_data": 101},"model": "minecraft:item/baton"},
+    {"predicate": {"custom_model_data": 102},"model": "minecraft:item/honedge_espada"},
+    {"predicate": {"custom_model_data": 103},"model": "minecraft:item/honedge_espada_enterrada"}
+  ]
+}

@@ -1,0 +1,221 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "minecraft:ranks/admin.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE800"]
+    },
+        {
+            "type": "bitmap",
+            "file": "minecraft:ranks/mod.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE801"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:ranks/lider.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE802"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:ranks/streamer.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE803"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/normal.png",
+            "ascent": 155,
+            "height": 155,
+            "chars": ["\uE804"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/largo.png",
+            "ascent": 90,
+            "height": 90,
+            "chars": ["\uE805"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/discord.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE806"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/telegram.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE807"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/tiktok.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE808"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/twitch.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE809"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/normal.png",
+            "ascent": 77,
+            "height": 77,
+            "chars": ["\uE80A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/youtube.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["\uE80B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/telegramchat.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\ud83d\udcac"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:ranks/sacerdote.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\ue80D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/boda-diorvi.png",
+            "ascent": 107,
+            "height": 107,
+            "chars": ["\ue80E"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/original.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE810"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/duplicado.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE811"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/sin_asignar.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE812"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/trofeo_oro.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE813"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/trofeo_plata.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE814"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/trofeo_bronce.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE815"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/puesto_oro.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE816"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/puesto_plata.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE817"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/puesto_bronce.png",
+            "ascent": 8,
+            "height": 8,
+            "chars": ["\uE818"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/liga.png",
+            "ascent": 77,
+            "height": 77,
+            "chars": ["\uE819"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/liga.png",
+            "ascent": 35,
+            "height": 35,
+            "chars": ["\uE81A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/right_click.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE81B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/left_click.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE81C"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/exclusivo.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE81D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/especial.png",
+            "ascent": 9,
+            "height": 9,
+            "chars": ["\uE81E"]
+        },
+        {
+            "type": "bitmap",
+            "file": "minecraft:misc/tiktoker.png",
+            "ascent": 7,
+            "height": 7,
+            "chars": ["\uE81F"]
+        }
+    ]
+}

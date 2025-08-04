@@ -1,0 +1,58 @@
+{
+	"lava_chicken_cooled":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:lava_chicken_cooled", "stream": true}
+		]
+	},
+	"lava_chicken_used":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:lava_chicken_used", "stream": true}
+		]
+	},
+	"potato_launcher_shoot1":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:potato_launcher_shoot1", "stream": true}
+		]
+	},
+	"potato_launcher_shoot2":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:potato_launcher_shoot2", "stream": true}
+		]
+	},
+	"potato_launcher_shoot3":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:potato_launcher_shoot3", "stream": true}
+		]
+	},
+	"potato_launcher_shoot4":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:potato_launcher_shoot4", "stream": true}
+		]
+	},
+	"potato_launcher_shoot5":
+	{
+		"master": "",
+		"sounds":
+		[
+			{"name": "lavachicken:potato_launcher_shoot5", "stream": true}
+		]
+	}
+}

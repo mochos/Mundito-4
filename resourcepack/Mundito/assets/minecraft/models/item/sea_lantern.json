@@ -1,0 +1,17 @@
+{
+    "parent": "block/sea_lantern",
+  "overrides": [
+    {"predicate": {"custom_model_data": 100},"model": "minecraft:block/llave_vacio"},
+    {"predicate": {"custom_model_data": 101},"model": "minecraft:block/burger_sign"},
+    {"predicate": {"custom_model_data": 102},"model": "minecraft:block/ceiling_fan"},
+    {"predicate": {"custom_model_data": 103},"model": "minecraft:block/burger_sign_2"},
+    {"predicate": {"custom_model_data": 104},"model": "minecraft:block/petit_cafe"},
+    {"predicate": {"custom_model_data": 105},"model": "minecraft:block/petit_cafe_luz"},
+    {"predicate": {"custom_model_data": 106},"model": "minecraft:block/ceiling_fan2"},
+    {"predicate": {"custom_model_data": 107},"model": "minecraft:block/burger_jigglybun"},
+    {"predicate": {"custom_model_data": 108},"model": "minecraft:block/burger_jigglybun_2"},
+    {"predicate": {"custom_model_data": 109},"model": "minecraft:block/petitcafe_neon_1"},
+    {"predicate": {"custom_model_data": 110},"model": "minecraft:block/petitcafe_neon_2"},
+    {"predicate": {"custom_model_data": 200},"model": "sables:item/holocron_jedi"}
+  ]
+}

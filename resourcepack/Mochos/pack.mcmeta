@@ -1,7 +1,6 @@
 {
   "pack": {
-    "pack_format": 15,
-    "supported_formats": {"min_inclusive": 15, "max_inclusive": 99},
+    "pack_format": 34,
     "description": "Recursos complementarios de Mochos Studio."
   }
 }
